@@ -486,11 +486,11 @@
 
       
         <p>为出站链接添加 “nofollow” 标签<br>nofollow标签是由谷歌领头创新的一个“反垃圾链接”的标签，并被百度、yahoo等各大搜索引擎广泛支持，引用nofollow标签的目的是：用于指示搜索引擎不要追踪（即抓取）网页上的带有nofollow属性的任何出站链接，以减少垃圾链接的分散网站权重。</p>
-<p>安装nofollow插件<br><figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-autonofollow --save</span><br></pre></td></tr></table></figure></p>
+<p>安装nofollow插件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-autonofollow --save</span><br></pre></td></tr></table></figure></p>
 <p>该插件会将博客中的出站链接自动加上nofollow属性，例外请在站点配置文件_config.xml中添加如下字段</p>
-<figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">nofollow:</span><br><span class="line">    enable: true</span><br><span class="line">    exclude:</span><br><span class="line">    - www.taxue123.cn</span><br><span class="line">    - 友链地址</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">nofollow:</span><br><span class="line">    enable: true</span><br><span class="line">    exclude:</span><br><span class="line">    - www.taxue123.cn</span><br><span class="line">    - 友链地址</span><br></pre></td></tr></table></figure>
 <p>这样，例外的链接将不会被加上nofollow属性。<br>插件自动添加的属性为’external nofollow noopener noreferrer’ 一般来说标准的nofollow属性只需要external nofollow即可，noopener noreferrer估计是新闻上说的钓鱼漏洞的补救方法，不过这条属性会影响站长工具的友链检测，大家如果需要去掉这一条属性，可以在/hexo根目录/node_moduleshexo-autonofollowlib中修改filter.js中</p>
-<figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rel: &apos;external nofollow noopener noreferrer&apos;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rel: &apos;external nofollow noopener noreferrer&apos;</span><br></pre></td></tr></table></figure>
 <p>将’noopener noreferrer’去掉，重新hexo g即可。</p>
 
       
@@ -625,7 +625,7 @@
                 
                   <a href="/archives">
                 
-                    <span class="site-state-item-count">113</span>
+                    <span class="site-state-item-count">117</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
