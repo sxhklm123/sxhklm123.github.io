@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://taxue123.cn/"/>
-  <updated>2019-02-20T10:59:34.503Z</updated>
+  <updated>2019-02-20T13:21:31.959Z</updated>
   <id>http://taxue123.cn/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>国外两款按量付费CDN</title>
+    <link href="http://taxue123.cn/liangkuancdn/"/>
+    <id>http://taxue123.cn/liangkuancdn/</id>
+    <published>2019-02-20T13:19:00.000Z</published>
+    <updated>2019-02-20T13:21:31.959Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1、CloudconeCDN-支持Paypal、支付宝、信用卡"><a href="#1、CloudconeCDN-支持Paypal、支付宝、信用卡" class="headerlink" title="1、CloudconeCDN:(支持Paypal、支付宝、信用卡)"></a>1、CloudconeCDN:(支持Paypal、支付宝、信用卡)</h3><p>个人使用评价：（极力推荐）<br>国内访问CDN路径，有5个还是6个，分别有韩国kt、日本midphase、香港、印度尼西亚、越南、新加坡（很少出现）。<br>不过缺点是，添加CDN时候账号必须要拥有20美元。否则不能添加。<br>想知道延迟，自己ping我提供的域名即可知道。</p><p>官网：<br><a href="https://www.cloudcone.com" rel="external nofollow" target="_blank">https://www.cloudcone.com</a><br>收费情况：<br>统一收费0.045美元/G</p><h3 id="2、BunnyCDN：-不支持Paypal，只能信用卡"><a href="#2、BunnyCDN：-不支持Paypal，只能信用卡" class="headerlink" title="2、BunnyCDN：(不支持Paypal，只能信用卡)"></a>2、BunnyCDN：(不支持Paypal，只能信用卡)</h3><p>个人使用评价：<br>国内访问CDN路径，基本清一色去日本（而且还是linode的机）<br>至于速度觉得还行，延迟。自己ping吧！</p><p>官网：<br><a href="https://www.bunnycdn.com" rel="external nofollow" target="_blank">https://www.bunnycdn.com</a></p><p>收费情况：（分不同区域收费不同）<br>北美$ 0.010 / GB<br>欧洲$ 0.010 / GB<br>亚洲和大洋洲$ 0.030 / GB<br>南美洲$ 0.045 / GB<br>南非0.06美元/ GB</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;1、CloudconeCDN-支持Paypal、支付宝、信用卡&quot;&gt;&lt;a href=&quot;#1、CloudconeCDN-支持Paypal、支付宝、信用卡&quot; class=&quot;headerlink&quot; title=&quot;1、CloudconeCDN:(支持Paypal、支付宝、信
+      
+    
+    </summary>
+    
+      <category term="网络资源" scheme="http://taxue123.cn/categories/%E7%BD%91%E7%BB%9C%E8%B5%84%E6%BA%90/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>让人动心是磨难中的尊贵</title>
@@ -471,29 +494,6 @@
     </summary>
     
       <category term="网络资源" scheme="http://taxue123.cn/categories/%E7%BD%91%E7%BB%9C%E8%B5%84%E6%BA%90/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>认真的人改变自己，执着的人改变命运</title>
-    <link href="http://taxue123.cn/renzhenderen/"/>
-    <id>http://taxue123.cn/renzhenderen/</id>
-    <published>2019-02-20T04:16:00.000Z</published>
-    <updated>2019-02-20T04:16:22.724Z</updated>
-    
-    <content type="html"><![CDATA[<p>在真实的生命里，每桩伟业都由信有一种努力叫主动，有一种拼命叫我愿意，那是因为梦想的动力！最终你相信什么就能成为什么。成功都是血汗的洗染，无悔走完希望每一天。因为世界上有最可怕的二个词：一个叫认真，一个叫执着，认真的人改变自己，执着的人改变命运。只要坚持在路上走，就没有到不了的地方。好事情总是发生在那些微笑着的人身上。你今天微笑了么？心开始，并由信心跨出第一步。<br><img src="https://ws4.sinaimg.cn/large/0078bOVFgy1g0crnp0iz4j30dw07tt8u.jpg" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;在真实的生命里，每桩伟业都由信有一种努力叫主动，有一种拼命叫我愿意，那是因为梦想的动力！最终你相信什么就能成为什么。成功都是血汗的洗染，无悔走完希望每一天。因为世界上有最可怕的二个词：一个叫认真，一个叫执着，认真的人改变自己，执着的人改变命运。只要坚持在路上走，就没有到不了
-      
-    
-    </summary>
-    
-      <category term="生活语录" scheme="http://taxue123.cn/categories/%E7%94%9F%E6%B4%BB%E8%AF%AD%E5%BD%95/"/>
     
     
   </entry>
