@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://taxue123.cn/"/>
-  <updated>2019-02-24T09:24:17.981Z</updated>
+  <updated>2019-02-24T10:11:32.443Z</updated>
   <id>http://taxue123.cn/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>djoffice高品质DJ音乐下载器</title>
+    <link href="http://taxue123.cn/djoffice/"/>
+    <id>http://taxue123.cn/djoffice/</id>
+    <published>2019-02-24T10:09:22.000Z</published>
+    <updated>2019-02-24T10:11:32.443Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://ws2.sinaimg.cn/large/0078bOVFgy1g0hoegyw5aj30bz0dd76l.jpg" alt=""><br>软件还有很多BUG，无效功能，因为比较忙，今天有时间更新一下，现在都11点了，睡觉了，下次再更新，<br>朋友们，有啥问题，在下面评论，我都有看的，有时间在更新<br>我自己win10可以打开，你们打不开的说一下。<br>易语言程序会报毒，不放行你们自己开着杀毒看看吧，在拿去检测一下，</p><p>12月17日 蓝奏下载地址：<a href="https://www.lanzous.com/i2mvwgd" rel="external nofollow" target="_blank">https://www.lanzous.com/i2mvwgd</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://ws2.sinaimg.cn/large/0078bOVFgy1g0hoegyw5aj30bz0dd76l.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;软件还有很多BUG，无效功能，因为比较忙，今天有时间更新一下，现在都11点了，睡觉了，下次再更新，
+      
+    
+    </summary>
+    
+      <category term="网络资源" scheme="http://taxue123.cn/categories/%E7%BD%91%E7%BB%9C%E8%B5%84%E6%BA%90/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>草莓文件加密器V2.0（不限文件格式）</title>
@@ -452,31 +475,6 @@
       
       
         &lt;p&gt;OCR识别： 搜狗OCR、百度OCR（3个）、有道OCR、腾讯OCR&lt;br&gt;翻译有：百度、谷歌、腾讯、有道、搜狗&lt;br&gt;图片识别：动物、植物、菜品、车型&lt;br&gt;注：&lt;br&gt;搜狗OCR偶尔会不能识别，不过等等就能用（官方问题无法解决）&lt;br&gt;百度OCR（一）已经失效已久（暂时
-      
-    
-    </summary>
-    
-      <category term="软件仓库" scheme="http://taxue123.cn/categories/%E8%BD%AF%E4%BB%B6%E4%BB%93%E5%BA%93/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>暴走WIFI安卓工具</title>
-    <link href="http://taxue123.cn/baozouwifi/"/>
-    <id>http://taxue123.cn/baozouwifi/</id>
-    <published>2019-02-20T09:16:04.000Z</published>
-    <updated>2019-02-20T09:17:25.862Z</updated>
-    
-    <content type="html"><![CDATA[<p>软件名称：暴走WIFI</p><p>开发平台：E4A</p><p>找了很多网上的WIFI暴走APP，都不是很理想，就自己开发来用，代码原本想走捷径，找个代码来二开，但是找了很久只找到一个E4A官网的2014年的代码，但是看了很久，还是自己来写代码，就去买了个E4A的商业版来弄！</p><p>原理很简单，随机生成密码来不停的加入WIFI，但是不知道路由器是否有限制连接数，后期可能会加入字典来跑。</p><p>目前先放出来吧，等字典搞好了后就开源出来！</p><p>备注：在模拟器内是扫描不到WIFI的，所以就不要去模拟器去运行了！</p><p>下载地址：<a href="https://pan.baidu.com/s/11L6OErPsKiqI7_hk4CfOqA" rel="external nofollow" target="_blank">https://pan.baidu.com/s/11L6OErPsKiqI7_hk4CfOqA</a> 提取码: axs3</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;软件名称：暴走WIFI&lt;/p&gt;
-&lt;p&gt;开发平台：E4A&lt;/p&gt;
-&lt;p&gt;找了很多网上的WIFI暴走APP，都不是很理想，就自己开发来用，代码原本想走捷径，找个代码来二开，但是找了很久只找到一个E4A官网的2014年的代码，但是看了很久，还是自己来写代码，就去买了个E4A的商业
       
     
     </summary>
