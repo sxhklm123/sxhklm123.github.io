@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title> 双网卡路由脚本生成器</title>
+      <link href="/shuangwangkajiaoben/"/>
+      <url>/shuangwangkajiaoben/</url>
+      
+        <content type="html"><![CDATA[<p>随着各运营商争夺用户战日益激烈,免费送宽带活动层出不穷,我等屁民终于也用上了多路宽带(几年前貌似是天方夜谭?),但如何利用上多路宽带呢,自己写了一个简单的路由脚本生成器</p><p>假设目前已有 铁通, 联通 两路宽带, 本工具可以自动生成路由脚本, 实现联通线路走联通, 其他线路走铁通 的功能, 当然各位可自行根据自己的需求修改配置来实现其他路由方式</p><p>工具界面如下 (.net 编写, 需.net 2.0以上库)<br><img src="https://ws4.sinaimg.cn/large/0078bOVFgy1g0jyc9dwp4j30su0dswf7.jpg" alt=""></p><p>首次运行先点击 按钮 “更新路由到本地”  ,  程序会从  <a href="http://ispip.clang.cn/" rel="external nofollow" target="_blank">http://ispip.clang.cn/</a>  获取路由信息(注意:该网站是本作者从网络上发现的,与本作者无关,对其中的路由信息的准确性无法保证,也未知该网站是否会突然失效,上传的附件中已打包了最新的地址信息表), 不过好在路由信息的变化应该不会很频繁, 更新一次就可以用很久(至少本人觉得够用了)</p><p>然后根据自己的需求设置 默认路由网关 和 某运行商,比如铁通的地址走的网关 ,  设置后点击 按钮 “设置到网关” , 脚本会显示在文本框内, 最后关闭程序后 程序目录下会生成一个脚本文件, 里面已经添加好了实现该功能的脚本, 运行此脚本就可添加路由表到系统中 注意: win7以上系统需要用管理员方式运行脚本, 也可以把该脚本添加为 开机任务 实现开机自动添加路由功能。</p><p>链接: <a href="https://pan.baidu.com/s/1J6NchICKSODEpejUHULVOw" rel="external nofollow" target="_blank">https://pan.baidu.com/s/1J6NchICKSODEpejUHULVOw</a> 提取码: p6jp 复制这段内容后打开百度网盘手机App，操作更方便哦</p><p>.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络资源 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>腾讯好莱坞会员转移教程</title>
+      <link href="/haolaiwuhuiyuanzhuanyi/"/>
+      <url>/haolaiwuhuiyuanzhuanyi/</url>
+      
+        <content type="html"><![CDATA[<p>复制打开链接，登录你的会员号，转移即可。</p><p><a href="http://film.qq.com/weixin/v3/vip-transfer/index.html" rel="external nofollow" target="_blank">http://film.qq.com/weixin/v3/vip-transfer/index.html</a></p><p>好莱坞会员可以转移了，一个微信/QQ只能一次！<br><img src="https://ws1.sinaimg.cn/large/0078bOVFgy1g0jya3irjxj30u01hcqap.jpg" alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络技术 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>精准实时公交APP-车来了去广告版</title>
       <link href="/chelaile/"/>
       <url>/chelaile/</url>
