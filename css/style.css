@@ -400,7 +400,7 @@ body {
   scroll-behavior: smooth;
   border-top: 3px solid #439F55; }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1024px) {
   body {
     border-top: 0; } }
 
@@ -448,9 +448,9 @@ h6 {
 
 .container {
   margin: 0 auto;
-  width: 750px; }
+  width: 1024px; }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1024px) {
   .container {
     width: 100%;
     box-shadow: -1px -5px 5px #cacaca; } }
@@ -495,7 +495,7 @@ h6 {
       box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.25); }
       .header .logo-wrapper img:hover {
         box-shadow: 0 1px 12px 0 #439F55; }
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 1024px) {
     .header .logo-wrapper {
       display: none; } }
   .header .site-navbar {
@@ -537,11 +537,11 @@ h6 {
       .header .site-navbar .menu .menu-item-link {
         color: #439F55;
         font-size: 18px; }
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 1024px) {
     .header .site-navbar {
       display: none; } }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1024px) {
   .header {
     padding: 50px 0 0;
     text-align: center; } }
@@ -595,7 +595,7 @@ h6 {
   .post .post-toc {
     position: absolute;
     width: 200px;
-    margin-left: 735px;
+    margin-left: 1009px;
     padding: 10px;
     font-family: Athelas, STHeiti, Microsoft Yahei, serif;
     border-radius: 5px;
@@ -620,7 +620,7 @@ h6 {
           padding-left: 15px; }
       .post .post-toc .post-toc-content .toc-link.active {
         color: #439F55; }
-  @media screen and (max-width: 1135px) {
+  @media screen and (max-width: 1409px) {
     .post .post-toc {
       display: none; } }
   .post .post-content h1 {
@@ -989,7 +989,7 @@ h6 {
           color: #439F55; }
       .post .post-footer .post-nav .nav-mobile {
         display: none; }
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 1024px) {
     .post .post-footer .post-nav .nav-default {
       display: none; }
     .post .post-footer .post-nav .nav-mobile {
@@ -1087,7 +1087,7 @@ h6 {
       .archive .archive-post:hover .archive-post-title .archive-post-link {
         color: #347b42; }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1024px) {
   .archive {
     margin-left: auto;
     margin-right: auto; }
@@ -1481,7 +1481,7 @@ h6 {
       .mobile-menu .mobile-menu-list a:hover {
         color: #439F55; }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1024px) {
   .mobile-navbar {
     display: block; } }
 
@@ -1499,6 +1499,6 @@ h6 {
   .back-to-top:hover {
     color: #439F55; }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1024px) {
   .back-to-top {
     display: none !important; } }
