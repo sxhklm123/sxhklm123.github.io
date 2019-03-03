@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.taxue123.cn/"/>
-  <updated>2019-03-01T09:41:10.397Z</updated>
+  <updated>2019-03-03T02:27:45.800Z</updated>
   <id>http://www.taxue123.cn/</id>
   
   <author>
@@ -15,6 +15,55 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>批量定时执行软件</title>
+    <link href="http://www.taxue123.cn/dszxrj/"/>
+    <id>http://www.taxue123.cn/dszxrj/</id>
+    <published>2019-03-03T02:27:45.000Z</published>
+    <updated>2019-03-03T02:27:45.800Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://ws3.sinaimg.cn/large/0078bOVFgy1g0pebht324j30fd0dyq40.jpg" alt=""></p><p>定时执行路径的 exe\bat 等可执行文件。列表框中右键有删除保存等，保存配置在我的文档，名字  定时执行.ini</p><p>过段时间这功能可能会并入 小助理，并且可能给小助理更换UI，这段时间有点忙，有Bug或建议请留言。</p><p>下载链接 <a href="https://www.lanzous.com/i3alnpc" rel="external nofollow" target="_blank">https://www.lanzous.com/i3alnpc</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://ws3.sinaimg.cn/large/0078bOVFgy1g0pebht324j30fd0dyq40.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;定时执行路径的 exe\bat 等可执行文件。列表框中右键有删除保存等，保存配置在我的文档
+      
+    
+    </summary>
+    
+      <category term="网络资源" scheme="http://www.taxue123.cn/categories/%E7%BD%91%E7%BB%9C%E8%B5%84%E6%BA%90/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Xmind Zen 9.1.3自制破解【Mac&amp;Win】</title>
+    <link href="http://www.taxue123.cn/XmindZen/"/>
+    <id>http://www.taxue123.cn/XmindZen/</id>
+    <published>2019-03-03T02:24:50.000Z</published>
+    <updated>2019-03-03T02:24:50.362Z</updated>
+    
+    <content type="html"><![CDATA[<p>喜欢xmind zen的风格，文科生，JS零基础，根据网络上相关破解资源花了两天时间捣鼓完成了不完美破解。</p><p>版本：基于官网最新的9.1.3版</p><p>破解：移除授权和验证（自己觉得已经移除了）、去除主界面“试用”提示，导出图片、PDF无水印（PDF还是有水印边框），可以导出word、Excel等。</p><p>不完美的地方，能力有限，无力再完美了，这版本已经是我极限了。</p><p>MACOS版地址：链接:<a href="https://pan.baidu.com/s/1-Bf1gN0t4-qysC0YlxeR3Q" rel="external nofollow" target="_blank">https://pan.baidu.com/s/1-Bf1gN0t4-qysC0YlxeR3Q</a>  密码:mpvd<br>WinOS版地址：链接:<a href="https://pan.baidu.com/s/1Qn1gJAXNgArZeh5uP4RIQg" rel="external nofollow" target="_blank">https://pan.baidu.com/s/1Qn1gJAXNgArZeh5uP4RIQg</a>  密码:rcdr</p><p><img src="https://ws3.sinaimg.cn/large/0078bOVFgy1g0pe8slo08j30ib0b774g.jpg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;喜欢xmind zen的风格，文科生，JS零基础，根据网络上相关破解资源花了两天时间捣鼓完成了不完美破解。&lt;/p&gt;
+&lt;p&gt;版本：基于官网最新的9.1.3版&lt;/p&gt;
+&lt;p&gt;破解：移除授权和验证（自己觉得已经移除了）、去除主界面“试用”提示，导出图片、PDF无水印（PDF还是有
+      
+    
+    </summary>
+    
+      <category term="网络资源" scheme="http://www.taxue123.cn/categories/%E7%BD%91%E7%BB%9C%E8%B5%84%E6%BA%90/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>RAR文件解锁器v4.0汉化版</title>
@@ -432,55 +481,6 @@
       
       
         &lt;p&gt;利用百度语音接口，制作的语音播报合成小软件。送给有需要的朋友，KEY可以自行申请，免费的，可以无限使用。&lt;br&gt;&lt;img src=&quot;https://ws2.sinaimg.cn/large/0078bOVFgy1g0hms65vujj30co082gmj.jpg&quot; alt=
-      
-    
-    </summary>
-    
-      <category term="软件仓库" scheme="http://www.taxue123.cn/categories/%E8%BD%AF%E4%BB%B6%E4%BB%93%E5%BA%93/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>小视秀v2一键制作热门特效短视频解锁直装版</title>
-    <link href="http://www.taxue123.cn/xiaoshixiu/"/>
-    <id>http://www.taxue123.cn/xiaoshixiu/</id>
-    <published>2019-02-24T09:12:19.000Z</published>
-    <updated>2019-02-24T09:13:45.533Z</updated>
-    
-    <content type="html"><![CDATA[<p>软件名字：小视秀</p><p>软件简介：以视频模板制作长/短视频，具体自行百度。<br>可能又和谐。。待消息。</p><p>2/22: 软件简单，却又奇葩，v2版下载后请查阅说明！谢谢！<br>若再和谐，不再处理更新，且删除本帖！</p><p>V2版特点：（2019/02/22）<br>1、解锁小视频模板，免登录直装版；<br>2、屏蔽无用功能布局，去更新；<br>3、移除无用权限，屏蔽主页banner；<br>4、屏蔽软件所有推广功能及联系方式等，还原软件清爽本质。<br>5、基于v1问题修改，请查阅注意事项！原创GenW。坛内首发。</p><p>测试环境：安卓6.0完美运行，其他机型自测。</p><p>使用方法：安装前请卸载其他版本，以免冲突。</p><p>视频保存路径：文件夹【xiaoshixiu】里面。</p><p>V2注意事项:<br>1，软件内小视频模板均可使用，已解锁！但长视频没有，因为原版会员也是需付费才能使用的！所以忽略了！另外，身份无所谓，模板功能解锁。<br>2，眼睛是个好东西，有的话看1。<br><img src="https://ws1.sinaimg.cn/large/0078bOVFgy1g0hmpw4mlgj30jp0j80vm.jpg" alt=""></p><p>下载地址 <a href="https://www.lanzous.com/b600461/" rel="external nofollow" target="_blank">https://www.lanzous.com/b600461/</a> 密码:GenWcra</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;软件名字：小视秀&lt;/p&gt;
-&lt;p&gt;软件简介：以视频模板制作长/短视频，具体自行百度。&lt;br&gt;可能又和谐。。待消息。&lt;/p&gt;
-&lt;p&gt;2/22: 软件简单，却又奇葩，v2版下载后请查阅说明！谢谢！&lt;br&gt;若再和谐，不再处理更新，且删除本帖！&lt;/p&gt;
-&lt;p&gt;V2版特点：（2019/
-      
-    
-    </summary>
-    
-      <category term="网络资源" scheme="http://www.taxue123.cn/categories/%E7%BD%91%E7%BB%9C%E8%B5%84%E6%BA%90/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>图片分割器V1.2</title>
-    <link href="http://www.taxue123.cn/tupianfengeqi/"/>
-    <id>http://www.taxue123.cn/tupianfengeqi/</id>
-    <published>2019-02-24T09:08:27.000Z</published>
-    <updated>2019-02-24T09:09:14.939Z</updated>
-    
-    <content type="html"><![CDATA[<p>小软件一枚，方法比较简单（选择图片，选择路径，设置分割线，开始分割；去色功能一般用不到），UI设计的简单了一点，主要用来图片分割用，有需自取吧！<br><img src="https://ws2.sinaimg.cn/large/0078bOVFgy1g0hmliymyqj30j707at9s.jpg" alt=""><br>链接：<a href="https://pan.baidu.com/s/1RacBzCW2PRTP7o9TlQY1dw（永久）" rel="external nofollow" target="_blank">https://pan.baidu.com/s/1RacBzCW2PRTP7o9TlQY1dw（永久）</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;小软件一枚，方法比较简单（选择图片，选择路径，设置分割线，开始分割；去色功能一般用不到），UI设计的简单了一点，主要用来图片分割用，有需自取吧！&lt;br&gt;&lt;img src=&quot;https://ws2.sinaimg.cn/large/0078bOVFgy1g0hmliymyqj
       
     
     </summary>
