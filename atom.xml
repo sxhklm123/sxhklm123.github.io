@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.taxue123.cn/"/>
-  <updated>2019-03-03T14:32:55.814Z</updated>
+  <updated>2019-03-04T03:21:43.235Z</updated>
   <id>http://www.taxue123.cn/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>宝塔面板6.8.9 一键直装专业版</title>
+    <link href="http://www.taxue123.cn/bt689/"/>
+    <id>http://www.taxue123.cn/bt689/</id>
+    <published>2019-03-04T03:20:47.000Z</published>
+    <updated>2019-03-04T03:21:43.235Z</updated>
+    
+    <content type="html"><![CDATA[<p>闲来无事，就把宝塔6.8.9的版本数据备份了。即使宝塔关闭了6.8.9.在我这里也可以使用的。嘿嘿嘿</p><p>如果之前安装过我帖子里的5.9的版本，无需升级。因为6.8没什么变化，就改了点UI。而且兼容性比5.9差多了。我的vir 128M的小鸡都安装失败。<br><img src="https://ws4.sinaimg.cn/large/0078bOVFgy1g0qlh2lizmj31p40u0qd6.jpg" alt=""></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Centos 系统</span><br><span class="line">wget -N --no-check-certificate -O install.sh https://67zz.cn/shell/bt6.8.9/install_6.0.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Debain 系统</span><br><span class="line">wget -N --no-check-certificate -O install.sh https://67zz.cn/shell/bt6.8.9/install-ubuntu_6.0.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure><p>脚本仅做学习分享，请勿用作生产环境！体验体验即可，做站还是5.9稳</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;闲来无事，就把宝塔6.8.9的版本数据备份了。即使宝塔关闭了6.8.9.在我这里也可以使用的。嘿嘿嘿&lt;/p&gt;
+&lt;p&gt;如果之前安装过我帖子里的5.9的版本，无需升级。因为6.8没什么变化，就改了点UI。而且兼容性比5.9差多了。我的vir 128M的小鸡都安装失败。&lt;br&gt;&lt;
+      
+    
+    </summary>
+    
+      <category term="网络资源" scheme="http://www.taxue123.cn/categories/%E7%BD%91%E7%BB%9C%E8%B5%84%E6%BA%90/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>牛牛看电视云 v2.3.7解除港台限制版</title>
@@ -460,29 +484,6 @@
       
       
         &lt;p&gt;车来了是由元光科技开发的一款查询公交车实时位置的手机软件。不仅能提供公交车的到站距离、预计到站时间，还能显示整条公交线路的通行状况，让用户不再盲目等待，有效缓解用户候车的不安全感，同时改变用户出行方式。&lt;br&gt;“车来了”目前在实时公交领域排位全国第一，已经覆盖全国66个城市
-      
-    
-    </summary>
-    
-      <category term="网络资源" scheme="http://www.taxue123.cn/categories/%E7%BD%91%E7%BB%9C%E8%B5%84%E6%BA%90/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>淘宝主图视频制作工具</title>
-    <link href="http://www.taxue123.cn/taobaozhutushipin/"/>
-    <id>http://www.taxue123.cn/taobaozhutushipin/</id>
-    <published>2019-02-24T12:57:54.000Z</published>
-    <updated>2019-02-24T12:59:08.750Z</updated>
-    
-    <content type="html"><![CDATA[<p>制作9 - 60秒拥有多种动画展示效果的 1:1, 3:4, 16:9 淘宝主图视频，支持在制作的淘宝主图视频上添加文字说明和图标。<br><img src="https://ws2.sinaimg.cn/large/0078bOVFgy1g0ht87g7vcj30jr0afaau.jpg" alt=""><br>这软件破解ok后，有个生成的时候关机的暗桩，练手的可以试试。</p><p>大体测试了一下 没发现什么问题 生成的时候也没水印了 ，关机的暗桩也去了。</p><p>下载地址：下载:<a href="https://www.lanzous.com/i1uaj5a" rel="external nofollow" target="_blank">https://www.lanzous.com/i1uaj5a</a> 密码:cy6x</p><p>闪退的看这里。  目录下有个user.dat 删除后再点注册 随便输入 就可以了。。。。  再就是文字哪里不能自己输入 是没破解好 那天有空在处理一下</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;制作9 - 60秒拥有多种动画展示效果的 1:1, 3:4, 16:9 淘宝主图视频，支持在制作的淘宝主图视频上添加文字说明和图标。&lt;br&gt;&lt;img src=&quot;https://ws2.sinaimg.cn/large/0078bOVFgy1g0ht87g7vcj30jr0a
       
     
     </summary>
