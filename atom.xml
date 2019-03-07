@@ -23,13 +23,13 @@
     <published>2019-03-07T03:26:22.000Z</published>
     <updated>2019-03-07T03:26:22.338Z</updated>
     
-    <content type="html"><![CDATA[<p>手机扫码登录安全放心软件获取和QQ好友的亲密度，以及可能认识的同学、亲戚、朋友的QQ号码<br>软件为易语言编写安全软件可能会报毒。<br>下载后请确定MD5、SHA1、CRC32和下面的相同，若不同请勿使用。<br>MD5 ：FE7D034DF543A82969D6A99496DA721F<br>SHA1 ：FFB6A3055E79C5EFEE3AAB3B5F19479C83D78A76<br>CRC32 ：35E38964<br><img src="https://ws1.sinaimg.cn/large/0078bOVFgy1g0u2hvg6j0j30ju0bwwfz.jpg" alt="QQ亲密度"><br>链接: <a href="https://pan.baidu.com/s/1TB4bLIJGrmw9irq0fsbJIA" rel="external nofollow" target="_blank">https://pan.baidu.com/s/1TB4bLIJGrmw9irq0fsbJIA</a> 提取码: hsrd </p>]]></content>
+    <content type="html"><![CDATA[<!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --><p>手机扫码登录安全放心软件获取和QQ好友的亲密度，以及可能认识的同学、亲戚、朋友的QQ号码<br>软件为易语言编写安全软件可能会报毒。<br>下载后请确定MD5、SHA1、CRC32和下面的相同，若不同请勿使用。<br>MD5 ：FE7D034DF543A82969D6A99496DA721F<br>SHA1 ：FFB6A3055E79C5EFEE3AAB3B5F19479C83D78A76<br>CRC32 ：35E38964<br><img src="https://ws1.sinaimg.cn/large/0078bOVFgy1g0u2hvg6j0j30ju0bwwfz.jpg" alt="QQ亲密度"><br>链接: <a href="https://pan.baidu.com/s/1TB4bLIJGrmw9irq0fsbJIA" rel="external nofollow" target="_blank">https://pan.baidu.com/s/1TB4bLIJGrmw9irq0fsbJIA</a> 提取码: hsrd</p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;手机扫码登录安全放心软件获取和QQ好友的亲密度，以及可能认识的同学、亲戚、朋友的QQ号码&lt;br&gt;软件为易语言编写安全软件可能会报毒。&lt;br&gt;下载后请确定MD5、SHA1、CRC32和下面的相同，若不同请勿使用。&lt;br&gt;MD5 ：FE7D034DF543A82969D6A99
+        &lt;!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;手机扫码登录安全放心软件获取和QQ好友的亲密度，以及可能认识的同学、亲戚、朋友的QQ号码&lt;br&gt;软件为易语言编写安全软件可能会报毒。&lt;br&gt;下载后请确
       
     
     </summary>
@@ -46,13 +46,13 @@
     <published>2019-03-06T13:31:57.000Z</published>
     <updated>2019-03-06T13:31:57.471Z</updated>
     
-    <content type="html"><![CDATA[<p>如果你打开生成的public文件夹里面的html、css、js源文件，你就会发现里面有大段的空白，这些空白占据着一定的空间。gulp是一个基于Node.js的自动化构建工具，我们可以通过一些gulp插件实现对html、css、js、image等静态资源的高效压缩，通过压缩这些静态资源，可以减少请求的数据量从而达到优化博客访问速度的目的。</p><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>在根目录下执行以下命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install gulp</span><br></pre></td></tr></table></figure></p><p>安装好后，还要安装以下5各模块<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">gulp-htmlclean // 清理html</span><br><span class="line">gulp-htmlmin // 压缩html</span><br><span class="line">gulp-minify-css // 压缩css</span><br><span class="line">gulp-uglify // 混淆js</span><br><span class="line">gulp-imagemin // 压缩图片</span><br></pre></td></tr></table></figure></p><p>继续执行命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install gulp-htmlclean gulp-htmlmin gulp-minify-css gulp-uglify gulp-imagemin --save</span><br></pre></td></tr></table></figure></p><h3 id="添加gulpfile-js文件"><a href="#添加gulpfile-js文件" class="headerlink" title="添加gulpfile.js文件"></a>添加gulpfile.js文件</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre></td><td class="code"><pre><span class="line">var gulp = require(&apos;gulp&apos;);</span><br><span class="line">var minifycss = require(&apos;gulp-minify-css&apos;);</span><br><span class="line">var uglify = require(&apos;gulp-uglify&apos;);</span><br><span class="line">var htmlmin = require(&apos;gulp-htmlmin&apos;);</span><br><span class="line">var htmlclean = require(&apos;gulp-htmlclean&apos;);</span><br><span class="line">var imagemin = require(&apos;gulp-imagemin&apos;);</span><br><span class="line"> </span><br><span class="line">// 压缩html</span><br><span class="line">gulp.task(&apos;minify-html&apos;, function() &#123;</span><br><span class="line">    return gulp.src(&apos;./public/**/*.html&apos;)</span><br><span class="line">        .pipe(htmlclean())</span><br><span class="line">        .pipe(htmlmin(&#123;</span><br><span class="line">            removeComments: true,</span><br><span class="line">            minifyJS: true,</span><br><span class="line">            minifyCSS: true,</span><br><span class="line">            minifyURLs: true,</span><br><span class="line">        &#125;))</span><br><span class="line">        .pipe(gulp.dest(&apos;./public&apos;))</span><br><span class="line">&#125;);</span><br><span class="line">// 压缩css</span><br><span class="line">gulp.task(&apos;minify-css&apos;, function() &#123;</span><br><span class="line">    return gulp.src(&apos;./public/**/*.css&apos;)</span><br><span class="line">        .pipe(minifycss(&#123;</span><br><span class="line">            compatibility: &apos;ie8&apos;</span><br><span class="line">        &#125;))</span><br><span class="line">        .pipe(gulp.dest(&apos;./public&apos;));</span><br><span class="line">&#125;);</span><br><span class="line">// 压缩js</span><br><span class="line">gulp.task(&apos;minify-js&apos;, function() &#123;</span><br><span class="line">    return gulp.src(&apos;./public/js/**/*.js&apos;)</span><br><span class="line">        .pipe(uglify())</span><br><span class="line">        .pipe(gulp.dest(&apos;./public&apos;));</span><br><span class="line">&#125;);</span><br><span class="line">// 压缩图片</span><br><span class="line">gulp.task(&apos;minify-images&apos;, function() &#123;</span><br><span class="line">    return gulp.src(&apos;./public/images/**/*.*&apos;)</span><br><span class="line">        .pipe(imagemin(</span><br><span class="line">        [imagemin.gifsicle(&#123;&apos;optimizationLevel&apos;: 3&#125;), </span><br><span class="line">        imagemin.jpegtran(&#123;&apos;progressive&apos;: true&#125;), </span><br><span class="line">        imagemin.optipng(&#123;&apos;optimizationLevel&apos;: 7&#125;), </span><br><span class="line">        imagemin.svgo()],</span><br><span class="line">        &#123;&apos;verbose&apos;: true&#125;))</span><br><span class="line">        .pipe(gulp.dest(&apos;./public/images&apos;))</span><br><span class="line">&#125;);</span><br><span class="line">// 默认任务</span><br><span class="line">gulp.task(&apos;default&apos;, [</span><br><span class="line">    &apos;minify-html&apos;,&apos;minify-css&apos;,&apos;minify-js&apos;,&apos;minify-images&apos;</span><br><span class="line">]);</span><br></pre></td></tr></table></figure><h3 id="执行压缩"><a href="#执行压缩" class="headerlink" title="执行压缩"></a>执行压缩</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">gulp  // 执行压缩，两条命令可以合并：hexo g &amp;&amp; gulp</span><br></pre></td></tr></table></figure><h3 id="执行部署命令"><a href="#执行部署命令" class="headerlink" title="执行部署命令"></a>执行部署命令</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --><p>如果你打开生成的public文件夹里面的html、css、js源文件，你就会发现里面有大段的空白，这些空白占据着一定的空间。gulp是一个基于Node.js的自动化构建工具，我们可以通过一些gulp插件实现对html、css、js、image等静态资源的高效压缩，通过压缩这些静态资源，可以减少请求的数据量从而达到优化博客访问速度的目的。</p><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>在根目录下执行以下命令<br></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install gulp</span><br></pre></td></tr></table></figure><p></p><p>安装好后，还要安装以下5各模块<br></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">gulp-htmlclean // 清理html</span><br><span class="line">gulp-htmlmin // 压缩html</span><br><span class="line">gulp-minify-css // 压缩css</span><br><span class="line">gulp-uglify // 混淆js</span><br><span class="line">gulp-imagemin // 压缩图片</span><br></pre></td></tr></table></figure><p></p><p>继续执行命令<br></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install gulp-htmlclean gulp-htmlmin gulp-minify-css gulp-uglify gulp-imagemin --save</span><br></pre></td></tr></table></figure><p></p><h3 id="添加gulpfile-js文件"><a href="#添加gulpfile-js文件" class="headerlink" title="添加gulpfile.js文件"></a>添加gulpfile.js文件</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre></td><td class="code"><pre><span class="line">var gulp = require(&apos;gulp&apos;);</span><br><span class="line">var minifycss = require(&apos;gulp-minify-css&apos;);</span><br><span class="line">var uglify = require(&apos;gulp-uglify&apos;);</span><br><span class="line">var htmlmin = require(&apos;gulp-htmlmin&apos;);</span><br><span class="line">var htmlclean = require(&apos;gulp-htmlclean&apos;);</span><br><span class="line">var imagemin = require(&apos;gulp-imagemin&apos;);</span><br><span class="line"> </span><br><span class="line">// 压缩html</span><br><span class="line">gulp.task(&apos;minify-html&apos;, function() &#123;</span><br><span class="line">    return gulp.src(&apos;./public/**/*.html&apos;)</span><br><span class="line">        .pipe(htmlclean())</span><br><span class="line">        .pipe(htmlmin(&#123;</span><br><span class="line">            removeComments: true,</span><br><span class="line">            minifyJS: true,</span><br><span class="line">            minifyCSS: true,</span><br><span class="line">            minifyURLs: true,</span><br><span class="line">        &#125;))</span><br><span class="line">        .pipe(gulp.dest(&apos;./public&apos;))</span><br><span class="line">&#125;);</span><br><span class="line">// 压缩css</span><br><span class="line">gulp.task(&apos;minify-css&apos;, function() &#123;</span><br><span class="line">    return gulp.src(&apos;./public/**/*.css&apos;)</span><br><span class="line">        .pipe(minifycss(&#123;</span><br><span class="line">            compatibility: &apos;ie8&apos;</span><br><span class="line">        &#125;))</span><br><span class="line">        .pipe(gulp.dest(&apos;./public&apos;));</span><br><span class="line">&#125;);</span><br><span class="line">// 压缩js</span><br><span class="line">gulp.task(&apos;minify-js&apos;, function() &#123;</span><br><span class="line">    return gulp.src(&apos;./public/js/**/*.js&apos;)</span><br><span class="line">        .pipe(uglify())</span><br><span class="line">        .pipe(gulp.dest(&apos;./public&apos;));</span><br><span class="line">&#125;);</span><br><span class="line">// 压缩图片</span><br><span class="line">gulp.task(&apos;minify-images&apos;, function() &#123;</span><br><span class="line">    return gulp.src(&apos;./public/images/**/*.*&apos;)</span><br><span class="line">        .pipe(imagemin(</span><br><span class="line">        [imagemin.gifsicle(&#123;&apos;optimizationLevel&apos;: 3&#125;), </span><br><span class="line">        imagemin.jpegtran(&#123;&apos;progressive&apos;: true&#125;), </span><br><span class="line">        imagemin.optipng(&#123;&apos;optimizationLevel&apos;: 7&#125;), </span><br><span class="line">        imagemin.svgo()],</span><br><span class="line">        &#123;&apos;verbose&apos;: true&#125;))</span><br><span class="line">        .pipe(gulp.dest(&apos;./public/images&apos;))</span><br><span class="line">&#125;);</span><br><span class="line">// 默认任务</span><br><span class="line">gulp.task(&apos;default&apos;, [</span><br><span class="line">    &apos;minify-html&apos;,&apos;minify-css&apos;,&apos;minify-js&apos;,&apos;minify-images&apos;</span><br><span class="line">]);</span><br></pre></td></tr></table></figure><h3 id="执行压缩"><a href="#执行压缩" class="headerlink" title="执行压缩"></a>执行压缩</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">gulp  // 执行压缩，两条命令可以合并：hexo g &amp;&amp; gulp</span><br></pre></td></tr></table></figure><h3 id="执行部署命令"><a href="#执行部署命令" class="headerlink" title="执行部署命令"></a>执行部署命令</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;如果你打开生成的public文件夹里面的html、css、js源文件，你就会发现里面有大段的空白，这些空白占据着一定的空间。gulp是一个基于Node.js的自动化构建工具，我们可以通过一些gulp插件实现对html、css、js、image等静态资源的高效压缩，通过压缩这
+        &lt;!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;如果你打开生成的public文件夹里面的html、css、js源文件，你就会发现里面有大段的空白，这些空白占据着一定的空间。gulp是一个基于Node
       
     
     </summary>
@@ -69,14 +69,13 @@
     <published>2019-03-04T03:20:47.000Z</published>
     <updated>2019-03-04T03:21:43.235Z</updated>
     
-    <content type="html"><![CDATA[<p>闲来无事，就把宝塔6.8.9的版本数据备份了。即使宝塔关闭了6.8.9.在我这里也可以使用的。嘿嘿嘿</p><p>如果之前安装过我帖子里的5.9的版本，无需升级。因为6.8没什么变化，就改了点UI。而且兼容性比5.9差多了。我的vir 128M的小鸡都安装失败。<br><img src="https://ws4.sinaimg.cn/large/0078bOVFgy1g0qlh2lizmj31p40u0qd6.jpg" alt=""></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Centos 系统</span><br><span class="line">wget -N --no-check-certificate -O install.sh https://67zz.cn/shell/bt6.8.9/install_6.0.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Debain 系统</span><br><span class="line">wget -N --no-check-certificate -O install.sh https://67zz.cn/shell/bt6.8.9/install-ubuntu_6.0.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure><p>脚本仅做学习分享，请勿用作生产环境！体验体验即可，做站还是5.9稳</p>]]></content>
+    <content type="html"><![CDATA[<!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --><p>闲来无事，就把宝塔6.8.9的版本数据备份了。即使宝塔关闭了6.8.9.在我这里也可以使用的。嘿嘿嘿</p><p>如果之前安装过我帖子里的5.9的版本，无需升级。因为6.8没什么变化，就改了点UI。而且兼容性比5.9差多了。我的vir 128M的小鸡都安装失败。<br><img src="https://ws4.sinaimg.cn/large/0078bOVFgy1g0qlh2lizmj31p40u0qd6.jpg" alt=""></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Centos 系统</span><br><span class="line">wget -N --no-check-certificate -O install.sh https://67zz.cn/shell/bt6.8.9/install_6.0.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Debain 系统</span><br><span class="line">wget -N --no-check-certificate -O install.sh https://67zz.cn/shell/bt6.8.9/install-ubuntu_6.0.sh &amp;&amp; bash install.sh</span><br></pre></td></tr></table></figure><p>脚本仅做学习分享，请勿用作生产环境！体验体验即可，做站还是5.9稳</p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;闲来无事，就把宝塔6.8.9的版本数据备份了。即使宝塔关闭了6.8.9.在我这里也可以使用的。嘿嘿嘿&lt;/p&gt;
-&lt;p&gt;如果之前安装过我帖子里的5.9的版本，无需升级。因为6.8没什么变化，就改了点UI。而且兼容性比5.9差多了。我的vir 128M的小鸡都安装失败。&lt;br&gt;&lt;
+        &lt;!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;闲来无事，就把宝塔6.8.9的版本数据备份了。即使宝塔关闭了6.8.9.在我这里也可以使用的。嘿嘿嘿&lt;/p&gt;&lt;p&gt;如果之前安装过我帖子里的5.9的版本
       
     
     </summary>
@@ -93,13 +92,13 @@
     <published>2019-03-03T14:32:55.000Z</published>
     <updated>2019-03-03T14:32:55.814Z</updated>
     
-    <content type="html"><![CDATA[<p>牛牛电视云手机电视，直播流畅高清，电视台影视台资源丰富，回看节目随心看，换台快，手机配置差也不卡顿！<br>央视频道:全面覆盖，CCTV-1~13、CCTV少儿、CCTV音乐、CCTV地理、CCTV-News、国防军事、证券资讯、音乐，这些牛牛电视云全部拥有！<br>体育频道:种类齐全，包括CCTV5、广东体育、北京体育、足球等直播热门体育频道，并附有赛程表。另提供中超、英超、西甲、意甲、德甲、法甲、CBA、NBA、亚冠、欧冠直播，更涵盖网球、摔跤、羽毛球、拳击、垂钓等体育项目。<br>卫视频道：各地卫视、地方台应有尽有，比如湖南卫视、浙江卫视、东方卫视。<br>地方频道：各省地方频道应有尽有<br>自定义频道：可以自定义自己的喜欢的频道（需要自备直播源）</p><p><a href="https://kumishare.ctfile.com/fs/3795621-345426301" rel="external nofollow" target="_blank">https://kumishare.ctfile.com/fs/3795621-345426301</a></p>]]></content>
+    <content type="html"><![CDATA[<!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --><p>牛牛电视云手机电视，直播流畅高清，电视台影视台资源丰富，回看节目随心看，换台快，手机配置差也不卡顿！<br>央视频道:全面覆盖，CCTV-1~13、CCTV少儿、CCTV音乐、CCTV地理、CCTV-News、国防军事、证券资讯、音乐，这些牛牛电视云全部拥有！<br>体育频道:种类齐全，包括CCTV5、广东体育、北京体育、足球等直播热门体育频道，并附有赛程表。另提供中超、英超、西甲、意甲、德甲、法甲、CBA、NBA、亚冠、欧冠直播，更涵盖网球、摔跤、羽毛球、拳击、垂钓等体育项目。<br>卫视频道：各地卫视、地方台应有尽有，比如湖南卫视、浙江卫视、东方卫视。<br>地方频道：各省地方频道应有尽有<br>自定义频道：可以自定义自己的喜欢的频道（需要自备直播源）</p><p><a href="https://kumishare.ctfile.com/fs/3795621-345426301" rel="external nofollow" target="_blank">https://kumishare.ctfile.com/fs/3795621-345426301</a></p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;牛牛电视云手机电视，直播流畅高清，电视台影视台资源丰富，回看节目随心看，换台快，手机配置差也不卡顿！&lt;br&gt;央视频道:全面覆盖，CCTV-1~13、CCTV少儿、CCTV音乐、CCTV地理、CCTV-News、国防军事、证券资讯、音乐，这些牛牛电视云全部拥有！&lt;br&gt;体育频
+        &lt;!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;牛牛电视云手机电视，直播流畅高清，电视台影视台资源丰富，回看节目随心看，换台快，手机配置差也不卡顿！&lt;br&gt;央视频道:全面覆盖，CCTV-1~13、C
       
     
     </summary>
@@ -116,13 +115,13 @@
     <published>2019-03-03T14:32:09.000Z</published>
     <updated>2019-03-03T14:32:09.166Z</updated>
     
-    <content type="html"><![CDATA[<p>全新会员体系，万兴神剪手会员将享受更多特权；一个账号，轻松畅享移动端&amp;桌面端，享受更多会员特权！<br>全球超50,000,000用户好评的视频编辑神器！<br>·支持高清拍摄，快速导入，直接编辑视频<br>·剪辑、分割、合并、裁剪、拼接多个视频，轻松完成视频修剪与处理<br>·支持导入照片，一键制作电子相册视频<br>·视频加速、减速、快进、慢放，你的节奏由你掌控<br>·视频倒放，时间倒流，跟着你左手右手反复慢动作<br>·支持画面调节：亮度、对比度、饱和度、锐度、色温、暗角<br>·画中画支持图片与视频</p><p>【更新内容】：2019-03-03<br>·优化旋转功能，支持顺时针、逆时针旋转及镜像翻转；<br>·新增新手导航，方便用户学习使用产品；<br>·解决部分机型导入时崩溃的问题；<br>·解决部分机型无法获取视频的问题；<br>·修复其它问题，增强系统稳定性</p><p>下载地址 <a href="http://www.lanzous.com/i3az33e" rel="external nofollow" target="_blank">http://www.lanzous.com/i3az33e</a></p>]]></content>
+    <content type="html"><![CDATA[<!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --><p>全新会员体系，万兴神剪手会员将享受更多特权；一个账号，轻松畅享移动端&amp;桌面端，享受更多会员特权！<br>全球超50,000,000用户好评的视频编辑神器！<br>·支持高清拍摄，快速导入，直接编辑视频<br>·剪辑、分割、合并、裁剪、拼接多个视频，轻松完成视频修剪与处理<br>·支持导入照片，一键制作电子相册视频<br>·视频加速、减速、快进、慢放，你的节奏由你掌控<br>·视频倒放，时间倒流，跟着你左手右手反复慢动作<br>·支持画面调节：亮度、对比度、饱和度、锐度、色温、暗角<br>·画中画支持图片与视频</p><p>【更新内容】：2019-03-03<br>·优化旋转功能，支持顺时针、逆时针旋转及镜像翻转；<br>·新增新手导航，方便用户学习使用产品；<br>·解决部分机型导入时崩溃的问题；<br>·解决部分机型无法获取视频的问题；<br>·修复其它问题，增强系统稳定性</p><p>下载地址 <a href="http://www.lanzous.com/i3az33e" rel="external nofollow" target="_blank">http://www.lanzous.com/i3az33e</a></p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;全新会员体系，万兴神剪手会员将享受更多特权；一个账号，轻松畅享移动端&amp;amp;桌面端，享受更多会员特权！&lt;br&gt;全球超50,000,000用户好评的视频编辑神器！&lt;br&gt;·支持高清拍摄，快速导入，直接编辑视频&lt;br&gt;·剪辑、分割、合并、裁剪、拼接多个视频，轻松完成视频修剪与
+        &lt;!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;全新会员体系，万兴神剪手会员将享受更多特权；一个账号，轻松畅享移动端&amp;amp;桌面端，享受更多会员特权！&lt;br&gt;全球超50,000,000用户好评的视
       
     
     </summary>
@@ -139,14 +138,13 @@
     <published>2019-03-03T02:45:34.000Z</published>
     <updated>2019-03-03T02:51:40.679Z</updated>
     
-    <content type="html"><![CDATA[<p>这个软件不是我写的，别人发给我的，现在有很多人都是拿这个软件生成的码去高价卖，这种码抽奖全都是擦肩，是抽不中的，大家别上当了，用这个软去骗人的上生小孩没屁股。</p><p>PS：抽奖就是把那个码子转为二维码，然后微信扫码就行了，但是这种废码一般都不会抽中的，但是我也遇到过抽中过一个网易CDK，（大哥们给我加个热心吧，我想进影视推荐看看 ）（转某爱）<br>别买雪碧码老哥们 都是随机生成的 可以自己生成 我放个前缀 后面15位<br>HTTP://SAO.SO/L/xxxxx<br>自己慢慢实验吧 用2维码生成器 只要你有耐心</p><p>百度云链接：<a href="https://pan.baidu.com/s/1ywx4EEp_sR2AhYoH-7pYuA" rel="external nofollow" target="_blank">https://pan.baidu.com/s/1ywx4EEp_sR2AhYoH-7pYuA</a><br>提取码：i68b</p>]]></content>
+    <content type="html"><![CDATA[<!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --><p>这个软件不是我写的，别人发给我的，现在有很多人都是拿这个软件生成的码去高价卖，这种码抽奖全都是擦肩，是抽不中的，大家别上当了，用这个软去骗人的上生小孩没屁股。</p><p>PS：抽奖就是把那个码子转为二维码，然后微信扫码就行了，但是这种废码一般都不会抽中的，但是我也遇到过抽中过一个网易CDK，（大哥们给我加个热心吧，我想进影视推荐看看 ）（转某爱）<br>别买雪碧码老哥们 都是随机生成的 可以自己生成 我放个前缀 后面15位<br>HTTP://SAO.SO/L/xxxxx<br>自己慢慢实验吧 用2维码生成器 只要你有耐心</p><p>百度云链接：<a href="https://pan.baidu.com/s/1ywx4EEp_sR2AhYoH-7pYuA" rel="external nofollow" target="_blank">https://pan.baidu.com/s/1ywx4EEp_sR2AhYoH-7pYuA</a><br>提取码：i68b</p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;这个软件不是我写的，别人发给我的，现在有很多人都是拿这个软件生成的码去高价卖，这种码抽奖全都是擦肩，是抽不中的，大家别上当了，用这个软去骗人的上生小孩没屁股。&lt;/p&gt;
-&lt;p&gt;PS：抽奖就是把那个码子转为二维码，然后微信扫码就行了，但是这种废码一般都不会抽中的，但是我也遇到过
+        &lt;!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;这个软件不是我写的，别人发给我的，现在有很多人都是拿这个软件生成的码去高价卖，这种码抽奖全都是擦肩，是抽不中的，大家别上当了，用这个软去骗人的上生小孩
       
     
     </summary>
@@ -163,13 +161,13 @@
     <published>2019-03-03T02:44:39.000Z</published>
     <updated>2019-03-03T02:44:39.237Z</updated>
     
-    <content type="html"><![CDATA[<p>里面全是一些非常有年代感的老照片。欢迎怀旧的朋友打印出来做装饰，不知道为嘛，我这阵子总喜欢打印些90年代那种泛黄的贴画贴宿舍来装饰，很有感觉哦！<br><img src="https://ws1.sinaimg.cn/large/0078bOVFgy1g0petewbf4j30eo07rgm5.jpg" alt=""></p><p><a href="https://pan.baidu.com/s/1zQnu5-nurg5cG_uWnIYgtg" rel="external nofollow" target="_blank">https://pan.baidu.com/s/1zQnu5-nurg5cG_uWnIYgtg</a></p>]]></content>
+    <content type="html"><![CDATA[<!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --><p>里面全是一些非常有年代感的老照片。欢迎怀旧的朋友打印出来做装饰，不知道为嘛，我这阵子总喜欢打印些90年代那种泛黄的贴画贴宿舍来装饰，很有感觉哦！<br><img src="https://ws1.sinaimg.cn/large/0078bOVFgy1g0petewbf4j30eo07rgm5.jpg" alt=""></p><p><a href="https://pan.baidu.com/s/1zQnu5-nurg5cG_uWnIYgtg" rel="external nofollow" target="_blank">https://pan.baidu.com/s/1zQnu5-nurg5cG_uWnIYgtg</a></p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;里面全是一些非常有年代感的老照片。欢迎怀旧的朋友打印出来做装饰，不知道为嘛，我这阵子总喜欢打印些90年代那种泛黄的贴画贴宿舍来装饰，很有感觉哦！&lt;br&gt;&lt;img src=&quot;https://ws1.sinaimg.cn/large/0078bOVFgy1g0petewbf4j
+        &lt;!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;里面全是一些非常有年代感的老照片。欢迎怀旧的朋友打印出来做装饰，不知道为嘛，我这阵子总喜欢打印些90年代那种泛黄的贴画贴宿舍来装饰，很有感觉哦！&lt;br
       
     
     </summary>
@@ -186,15 +184,13 @@
     <published>2019-03-03T02:43:01.000Z</published>
     <updated>2019-03-03T02:43:02.040Z</updated>
     
-    <content type="html"><![CDATA[<p>WIFI万能钥匙超级精简显密码版来了，去除90%无用布局，去除所有附加广告、通知，界面极度精简，仅保留核心功能。增加免root查看连接密码功能，密码支持一键复制。好不好用，你说的算！</p><p>当然WIFI万能钥匙有很多版本，不排除部分系统不能正常使用。</p><p>下载地址 <a href="http://www.lanzous.com/i3ab07g" rel="external nofollow" target="_blank">http://www.lanzous.com/i3ab07g</a></p>]]></content>
+    <content type="html"><![CDATA[<!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --><p>WIFI万能钥匙超级精简显密码版来了，去除90%无用布局，去除所有附加广告、通知，界面极度精简，仅保留核心功能。增加免root查看连接密码功能，密码支持一键复制。好不好用，你说的算！</p><p>当然WIFI万能钥匙有很多版本，不排除部分系统不能正常使用。</p><p>下载地址 <a href="http://www.lanzous.com/i3ab07g" rel="external nofollow" target="_blank">http://www.lanzous.com/i3ab07g</a></p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;WIFI万能钥匙超级精简显密码版来了，去除90%无用布局，去除所有附加广告、通知，界面极度精简，仅保留核心功能。增加免root查看连接密码功能，密码支持一键复制。好不好用，你说的算！&lt;/p&gt;
-&lt;p&gt;当然WIFI万能钥匙有很多版本，不排除部分系统不能正常使用。&lt;/p&gt;
-&lt;p&gt;
+        &lt;!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;WIFI万能钥匙超级精简显密码版来了，去除90%无用布局，去除所有附加广告、通知，界面极度精简，仅保留核心功能。增加免root查看连接密码功能，密码支
       
     
     </summary>
@@ -211,15 +207,13 @@
     <published>2019-03-03T02:42:05.000Z</published>
     <updated>2019-03-03T02:42:05.322Z</updated>
     
-    <content type="html"><![CDATA[<p>可恶，找不到现成的只能自己写了（万恶的偷撸党），分享出来一起引流一起玩！好用就给点妖精啊啊啊啊啊！！！！</p><p>解压到酷Q的APP文件夹下即可，Cookie使用奇易QQ安全助手导出直接复制导入即可（百度去下载）</p><p>链接: <a href="https://pan.baidu.com/s/1Fggwv5diwvzYFU10-ZnP3Q" rel="external nofollow" target="_blank">https://pan.baidu.com/s/1Fggwv5diwvzYFU10-ZnP3Q</a> 提取码: 4ciz 复制这段内容后打开百度网盘手机App，操作更方便哦</p>]]></content>
+    <content type="html"><![CDATA[<!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --><p>可恶，找不到现成的只能自己写了（万恶的偷撸党），分享出来一起引流一起玩！好用就给点妖精啊啊啊啊啊！！！！</p><p>解压到酷Q的APP文件夹下即可，Cookie使用奇易QQ安全助手导出直接复制导入即可（百度去下载）</p><p>链接: <a href="https://pan.baidu.com/s/1Fggwv5diwvzYFU10-ZnP3Q" rel="external nofollow" target="_blank">https://pan.baidu.com/s/1Fggwv5diwvzYFU10-ZnP3Q</a> 提取码: 4ciz 复制这段内容后打开百度网盘手机App，操作更方便哦</p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;可恶，找不到现成的只能自己写了（万恶的偷撸党），分享出来一起引流一起玩！好用就给点妖精啊啊啊啊啊！！！！&lt;/p&gt;
-&lt;p&gt;解压到酷Q的APP文件夹下即可，Cookie使用奇易QQ安全助手导出直接复制导入即可（百度去下载）&lt;/p&gt;
-&lt;p&gt;链接: &lt;a href=&quot;https:/
+        &lt;!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;可恶，找不到现成的只能自己写了（万恶的偷撸党），分享出来一起引流一起玩！好用就给点妖精啊啊啊啊啊！！！！&lt;/p&gt;&lt;p&gt;解压到酷Q的APP文件夹下即可，
       
     
     </summary>
@@ -236,14 +230,13 @@
     <published>2019-03-03T02:27:45.000Z</published>
     <updated>2019-03-03T02:27:45.800Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="https://ws3.sinaimg.cn/large/0078bOVFgy1g0pebht324j30fd0dyq40.jpg" alt=""></p><p>定时执行路径的 exe\bat 等可执行文件。列表框中右键有删除保存等，保存配置在我的文档，名字  定时执行.ini</p><p>过段时间这功能可能会并入 小助理，并且可能给小助理更换UI，这段时间有点忙，有Bug或建议请留言。</p><p>下载链接 <a href="https://www.lanzous.com/i3alnpc" rel="external nofollow" target="_blank">https://www.lanzous.com/i3alnpc</a></p>]]></content>
+    <content type="html"><![CDATA[<!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --><p><img src="https://ws3.sinaimg.cn/large/0078bOVFgy1g0pebht324j30fd0dyq40.jpg" alt=""></p><p>定时执行路径的 exe\bat 等可执行文件。列表框中右键有删除保存等，保存配置在我的文档，名字 定时执行.ini</p><p>过段时间这功能可能会并入 小助理，并且可能给小助理更换UI，这段时间有点忙，有Bug或建议请留言。</p><p>下载链接 <a href="https://www.lanzous.com/i3alnpc" rel="external nofollow" target="_blank">https://www.lanzous.com/i3alnpc</a></p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;&lt;img src=&quot;https://ws3.sinaimg.cn/large/0078bOVFgy1g0pebht324j30fd0dyq40.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;定时执行路径的 exe\bat 等可执行文件。列表框中右键有删除保存等，保存配置在我的文档
+        &lt;!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;&lt;img src=&quot;https://ws3.sinaimg.cn/large/0078bOVFgy1g0pebht324j30fd0dyq40.jpg
       
     
     </summary>
@@ -260,15 +253,13 @@
     <published>2019-03-03T02:24:50.000Z</published>
     <updated>2019-03-03T02:24:50.362Z</updated>
     
-    <content type="html"><![CDATA[<p>喜欢xmind zen的风格，文科生，JS零基础，根据网络上相关破解资源花了两天时间捣鼓完成了不完美破解。</p><p>版本：基于官网最新的9.1.3版</p><p>破解：移除授权和验证（自己觉得已经移除了）、去除主界面“试用”提示，导出图片、PDF无水印（PDF还是有水印边框），可以导出word、Excel等。</p><p>不完美的地方，能力有限，无力再完美了，这版本已经是我极限了。</p><p>MACOS版地址：链接:<a href="https://pan.baidu.com/s/1-Bf1gN0t4-qysC0YlxeR3Q" rel="external nofollow" target="_blank">https://pan.baidu.com/s/1-Bf1gN0t4-qysC0YlxeR3Q</a>  密码:mpvd<br>WinOS版地址：链接:<a href="https://pan.baidu.com/s/1Qn1gJAXNgArZeh5uP4RIQg" rel="external nofollow" target="_blank">https://pan.baidu.com/s/1Qn1gJAXNgArZeh5uP4RIQg</a>  密码:rcdr</p><p><img src="https://ws3.sinaimg.cn/large/0078bOVFgy1g0pe8slo08j30ib0b774g.jpg" alt=""></p>]]></content>
+    <content type="html"><![CDATA[<!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --><p>喜欢xmind zen的风格，文科生，JS零基础，根据网络上相关破解资源花了两天时间捣鼓完成了不完美破解。</p><p>版本：基于官网最新的9.1.3版</p><p>破解：移除授权和验证（自己觉得已经移除了）、去除主界面“试用”提示，导出图片、PDF无水印（PDF还是有水印边框），可以导出word、Excel等。</p><p>不完美的地方，能力有限，无力再完美了，这版本已经是我极限了。</p><p>MACOS版地址：链接:<a href="https://pan.baidu.com/s/1-Bf1gN0t4-qysC0YlxeR3Q" rel="external nofollow" target="_blank">https://pan.baidu.com/s/1-Bf1gN0t4-qysC0YlxeR3Q</a> 密码:mpvd<br>WinOS版地址：链接:<a href="https://pan.baidu.com/s/1Qn1gJAXNgArZeh5uP4RIQg" rel="external nofollow" target="_blank">https://pan.baidu.com/s/1Qn1gJAXNgArZeh5uP4RIQg</a> 密码:rcdr</p><p><img src="https://ws3.sinaimg.cn/large/0078bOVFgy1g0pe8slo08j30ib0b774g.jpg" alt=""></p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;喜欢xmind zen的风格，文科生，JS零基础，根据网络上相关破解资源花了两天时间捣鼓完成了不完美破解。&lt;/p&gt;
-&lt;p&gt;版本：基于官网最新的9.1.3版&lt;/p&gt;
-&lt;p&gt;破解：移除授权和验证（自己觉得已经移除了）、去除主界面“试用”提示，导出图片、PDF无水印（PDF还是有
+        &lt;!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;喜欢xmind zen的风格，文科生，JS零基础，根据网络上相关破解资源花了两天时间捣鼓完成了不完美破解。&lt;/p&gt;&lt;p&gt;版本：基于官网最新的9.1.3
       
     
     </summary>
@@ -285,14 +276,13 @@
     <published>2019-03-01T09:41:10.000Z</published>
     <updated>2019-03-01T09:41:10.397Z</updated>
     
-    <content type="html"><![CDATA[<p>某些压缩包我们想直接编辑它，却发现添加按钮是灰色的，原因就是压缩的时候选择了锁定属性<br>把RAR文件拖进解锁器里，点击解锁，即可编辑压缩包了</p><p>如果你从未遇到锁定的文件，是因为你用了第三方修改的WinRAR，如果你用原版WinRAR，那么它是必不可少的<br>注意：这不是破解密码的软件！是去除rar压缩包锁定属性的软件</p><p><img src="https://ws1.sinaimg.cn/large/0078bOVFgy1g0nflf6tiqj30g70b075s.jpg" alt=""></p><p>链接: <a href="https://pan.baidu.com/s/1hHnrXMg6sXS7zSOYWczTeQ" rel="external nofollow" target="_blank">https://pan.baidu.com/s/1hHnrXMg6sXS7zSOYWczTeQ</a> 提取码: uemr 复制这段内容后打开百度网盘手机App，操作更方便哦</p>]]></content>
+    <content type="html"><![CDATA[<!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --><p>某些压缩包我们想直接编辑它，却发现添加按钮是灰色的，原因就是压缩的时候选择了锁定属性<br>把RAR文件拖进解锁器里，点击解锁，即可编辑压缩包了</p><p>如果你从未遇到锁定的文件，是因为你用了第三方修改的WinRAR，如果你用原版WinRAR，那么它是必不可少的<br>注意：这不是破解密码的软件！是去除rar压缩包锁定属性的软件</p><p><img src="https://ws1.sinaimg.cn/large/0078bOVFgy1g0nflf6tiqj30g70b075s.jpg" alt=""></p><p>链接: <a href="https://pan.baidu.com/s/1hHnrXMg6sXS7zSOYWczTeQ" rel="external nofollow" target="_blank">https://pan.baidu.com/s/1hHnrXMg6sXS7zSOYWczTeQ</a> 提取码: uemr 复制这段内容后打开百度网盘手机App，操作更方便哦</p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;某些压缩包我们想直接编辑它，却发现添加按钮是灰色的，原因就是压缩的时候选择了锁定属性&lt;br&gt;把RAR文件拖进解锁器里，点击解锁，即可编辑压缩包了&lt;/p&gt;
-&lt;p&gt;如果你从未遇到锁定的文件，是因为你用了第三方修改的WinRAR，如果你用原版WinRAR，那么它是必不可少的&lt;br
+        &lt;!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;某些压缩包我们想直接编辑它，却发现添加按钮是灰色的，原因就是压缩的时候选择了锁定属性&lt;br&gt;把RAR文件拖进解锁器里，点击解锁，即可编辑压缩包了&lt;/p
       
     
     </summary>
@@ -309,14 +299,13 @@
     <published>2019-03-01T09:37:28.000Z</published>
     <updated>2019-03-01T09:37:28.115Z</updated>
     
-    <content type="html"><![CDATA[<p>使用说明：<br>–软件使用简单，只需 填入城通网盘文件下载的链接，再点击 “刷下载开始” 按钮，<br>就可以自动下载文件，赚取下载收益。</p><p>主要特点：<br>–软件启动真实的浏览器，完全模拟真人点击下载文件。<br>–每次下载，自动切换全国各城市IP，自动更换浏览器系统信息User-Agent，自动清除浏览器下载后的记录、缓存、cookie、文件。<br>–随机变换 下载链接 的来源网址。<br>–软件运行内存占用小，能够运行于虚拟机VPS上。<br>–根据实际刷下载情况，随意设置下载间隔时间，避免输入验证码。</p><p>关于 光纤 宽带拨号换IP：<br>※贴士1：拨打电信10000号、移动10086等客服电话，可以申请宽带更换为拨号上网，之后每次拨号就能变换IP地址，可以设置 数十秒 的下载间隔时间。<br>※贴士2：淘宝搜“动态IP VPS”选择 全国混拨与 1G 内存以上虚拟机，拨号变换IP地址,设置时间。</p><p>电脑Windows版 直接下载网址：<br><a href="https://github.com/qiqi125/ct/releases/download/ct/ct-32-52.zip" rel="external nofollow" target="_blank">https://github.com/qiqi125/ct/releases/download/ct/ct-32-52.zip</a></p><p><img src="https://ws3.sinaimg.cn/large/0078bOVFgy1g0nfinxdi3j30jl0c4wfr.jpg" alt=""></p>]]></content>
+    <content type="html"><![CDATA[<!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --><p>使用说明：<br>–软件使用简单，只需 填入城通网盘文件下载的链接，再点击 “刷下载开始” 按钮，<br>就可以自动下载文件，赚取下载收益。</p><p>主要特点：<br>–软件启动真实的浏览器，完全模拟真人点击下载文件。<br>–每次下载，自动切换全国各城市IP，自动更换浏览器系统信息User-Agent，自动清除浏览器下载后的记录、缓存、cookie、文件。<br>–随机变换 下载链接 的来源网址。<br>–软件运行内存占用小，能够运行于虚拟机VPS上。<br>–根据实际刷下载情况，随意设置下载间隔时间，避免输入验证码。</p><p>关于 光纤 宽带拨号换IP：<br>※贴士1：拨打电信10000号、移动10086等客服电话，可以申请宽带更换为拨号上网，之后每次拨号就能变换IP地址，可以设置 数十秒 的下载间隔时间。<br>※贴士2：淘宝搜“动态IP VPS”选择 全国混拨与 1G 内存以上虚拟机，拨号变换IP地址,设置时间。</p><p>电脑Windows版 直接下载网址：<br><a href="https://github.com/qiqi125/ct/releases/download/ct/ct-32-52.zip" rel="external nofollow" target="_blank">https://github.com/qiqi125/ct/releases/download/ct/ct-32-52.zip</a></p><p><img src="https://ws3.sinaimg.cn/large/0078bOVFgy1g0nfinxdi3j30jl0c4wfr.jpg" alt=""></p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;使用说明：&lt;br&gt;–软件使用简单，只需 填入城通网盘文件下载的链接，再点击 “刷下载开始” 按钮，&lt;br&gt;就可以自动下载文件，赚取下载收益。&lt;/p&gt;
-&lt;p&gt;主要特点：&lt;br&gt;–软件启动真实的浏览器，完全模拟真人点击下载文件。&lt;br&gt;–每次下载，自动切换全国各城市IP，自动更
+        &lt;!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;使用说明：&lt;br&gt;–软件使用简单，只需 填入城通网盘文件下载的链接，再点击 “刷下载开始” 按钮，&lt;br&gt;就可以自动下载文件，赚取下载收益。&lt;/p&gt;&lt;
       
     
     </summary>
@@ -333,15 +322,13 @@
     <published>2019-03-01T09:35:47.000Z</published>
     <updated>2019-03-01T09:35:47.635Z</updated>
     
-    <content type="html"><![CDATA[<p>本软件功能是搜索京东第三方包邮商品，按价格排序显示。</p><p>V2.0版更新内容：</p><p>1.新增了多品种同时搜索，用|隔开即可，不限商品；<br>2.更改了页面区间，可以指定从第几页到第几页搜索；<br>3.更改了价格区间，可以设置最低包邮价格；<br>4.将强力模式改名为模拟模式，功能未变；<br>5.将原来默认模式改名为代码模式，并进行了加强，效率和准确性已超过模拟模式；<br>6.修复了部分图片无法显示的问题；<br>7.新增了数据导出TXT功能，在左上角 操作 里面；<br>8.针对显示 计算机未连接网络 问题，提供特殊性，该版本无法更新。</p><p>特别提示：本软件易语言编写，容易误报，介意的勿下载</p><p>下载地址：<a href="https://pan.baidu.com/s/19jplsz-iRGGbA0BhvxILSQ" rel="external nofollow" target="_blank">https://pan.baidu.com/s/19jplsz-iRGGbA0BhvxILSQ</a> 提取码: 2v37 </p><p><img src="https://ws2.sinaimg.cn/large/0078bOVFgy1g0nfgq14mdj30jf0b7q5h.jpg" alt=""></p>]]></content>
+    <content type="html"><![CDATA[<!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --><p>本软件功能是搜索京东第三方包邮商品，按价格排序显示。</p><p>V2.0版更新内容：</p><p>1.新增了多品种同时搜索，用|隔开即可，不限商品；<br>2.更改了页面区间，可以指定从第几页到第几页搜索；<br>3.更改了价格区间，可以设置最低包邮价格；<br>4.将强力模式改名为模拟模式，功能未变；<br>5.将原来默认模式改名为代码模式，并进行了加强，效率和准确性已超过模拟模式；<br>6.修复了部分图片无法显示的问题；<br>7.新增了数据导出TXT功能，在左上角 操作 里面；<br>8.针对显示 计算机未连接网络 问题，提供特殊性，该版本无法更新。</p><p>特别提示：本软件易语言编写，容易误报，介意的勿下载</p><p>下载地址：<a href="https://pan.baidu.com/s/19jplsz-iRGGbA0BhvxILSQ" rel="external nofollow" target="_blank">https://pan.baidu.com/s/19jplsz-iRGGbA0BhvxILSQ</a> 提取码: 2v37</p><p><img src="https://ws2.sinaimg.cn/large/0078bOVFgy1g0nfgq14mdj30jf0b7q5h.jpg" alt=""></p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;本软件功能是搜索京东第三方包邮商品，按价格排序显示。&lt;/p&gt;
-&lt;p&gt;V2.0版更新内容：&lt;/p&gt;
-&lt;p&gt;1.新增了多品种同时搜索，用|隔开即可，不限商品；&lt;br&gt;2.更改了页面区间，可以指定从第几页到第几页搜索；&lt;br&gt;3.更改了价格区间，可以设置最低包邮价格；&lt;br&gt;4.
+        &lt;!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;本软件功能是搜索京东第三方包邮商品，按价格排序显示。&lt;/p&gt;&lt;p&gt;V2.0版更新内容：&lt;/p&gt;&lt;p&gt;1.新增了多品种同时搜索，用|隔开即可，不限商品；
       
     
     </summary>
@@ -358,15 +345,13 @@
     <published>2019-03-01T09:30:21.000Z</published>
     <updated>2019-03-01T09:30:21.301Z</updated>
     
-    <content type="html"><![CDATA[<p>HDP直播+PotPlayer直播</p><p>里面有一些直播源。<br><img src="https://ws1.sinaimg.cn/large/0078bOVFgy1g0nfaxe0enj30tz13jafz.jpg" alt=""></p><p><a href="https://pan.baidu.com/share/init?surl=xyJ3Ko0TPHlKmAz4-XO2LQ" rel="external nofollow" target="_blank">https://pan.baidu.com/share/init?surl=xyJ3Ko0TPHlKmAz4-XO2LQ</a><br>密码:r43u</p>]]></content>
+    <content type="html"><![CDATA[<!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --><p>HDP直播+PotPlayer直播</p><p>里面有一些直播源。<br><img src="https://ws1.sinaimg.cn/large/0078bOVFgy1g0nfaxe0enj30tz13jafz.jpg" alt=""></p><p><a href="https://pan.baidu.com/share/init?surl=xyJ3Ko0TPHlKmAz4-XO2LQ" rel="external nofollow" target="_blank">https://pan.baidu.com/share/init?surl=xyJ3Ko0TPHlKmAz4-XO2LQ</a><br>密码:r43u</p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;HDP直播+PotPlayer直播&lt;/p&gt;
-&lt;p&gt;里面有一些直播源。&lt;br&gt;&lt;img src=&quot;https://ws1.sinaimg.cn/large/0078bOVFgy1g0nfaxe0enj30tz13jafz.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href
+        &lt;!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;HDP直播+PotPlayer直播&lt;/p&gt;&lt;p&gt;里面有一些直播源。&lt;br&gt;&lt;img src=&quot;https://ws1.sinaimg.cn/large
       
     
     </summary>
@@ -383,13 +368,13 @@
     <published>2019-03-01T04:06:23.000Z</published>
     <updated>2019-03-01T04:06:23.912Z</updated>
     
-    <content type="html"><![CDATA[<p>积极的人在每一次忧患中都看到一个机会，而消极的人则在每个机会都看到某种忧患。生命中，不断地有人离开或进入。于是，看见的，看不见的；记住的，遗忘了。生命中不断地有得到和失落。于是，看不见的，看见了；遗忘的，记住了。 然而，看不见 的，是不是就等于不存在？记住的，是不是永远不会消失？<br><img src="https://ws3.sinaimg.cn/large/0078bOVFgy1g0n5xejcgwj30fy0amjtq.jpg" alt=""></p>]]></content>
+    <content type="html"><![CDATA[<!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --><p>积极的人在每一次忧患中都看到一个机会，而消极的人则在每个机会都看到某种忧患。生命中，不断地有人离开或进入。于是，看见的，看不见的；记住的，遗忘了。生命中不断地有得到和失落。于是，看不见的，看见了；遗忘的，记住了。 然而，看不见 的，是不是就等于不存在？记住的，是不是永远不会消失？<br><img src="https://ws3.sinaimg.cn/large/0078bOVFgy1g0n5xejcgwj30fy0amjtq.jpg" alt=""></p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;积极的人在每一次忧患中都看到一个机会，而消极的人则在每个机会都看到某种忧患。生命中，不断地有人离开或进入。于是，看见的，看不见的；记住的，遗忘了。生命中不断地有得到和失落。于是，看不见的，看见了；遗忘的，记住了。 然而，看不见 的，是不是就等于不存在？记住的，是不是永远不会
+        &lt;!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;积极的人在每一次忧患中都看到一个机会，而消极的人则在每个机会都看到某种忧患。生命中，不断地有人离开或进入。于是，看见的，看不见的；记住的，遗忘了。生命
       
     
     </summary>
@@ -406,13 +391,13 @@
     <published>2019-03-01T04:04:15.000Z</published>
     <updated>2019-03-01T04:04:15.876Z</updated>
     
-    <content type="html"><![CDATA[<p>失败中的开放与坦诚，一种脚踏实地面对现实的精神，似乎是处于更高层次的成功所不具备的。给自己一个微笑，你就会领悟：痛苦一次，对快乐的理解就会更具体一次;失败一次，对成功的认识就会更深刻一次;受挫一次，对顺利的感觉就更清楚一次;失误一次，对认真的意义就会更明白一次。<br><img src="https://ws2.sinaimg.cn/large/0078bOVFgy1g0n5vxyaevj30dw099jrx.jpg" alt=""></p>]]></content>
+    <content type="html"><![CDATA[<!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --><p>失败中的开放与坦诚，一种脚踏实地面对现实的精神，似乎是处于更高层次的成功所不具备的。给自己一个微笑，你就会领悟：痛苦一次，对快乐的理解就会更具体一次;失败一次，对成功的认识就会更深刻一次;受挫一次，对顺利的感觉就更清楚一次;失误一次，对认真的意义就会更明白一次。<br><img src="https://ws2.sinaimg.cn/large/0078bOVFgy1g0n5vxyaevj30dw099jrx.jpg" alt=""></p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;失败中的开放与坦诚，一种脚踏实地面对现实的精神，似乎是处于更高层次的成功所不具备的。给自己一个微笑，你就会领悟：痛苦一次，对快乐的理解就会更具体一次;失败一次，对成功的认识就会更深刻一次;受挫一次，对顺利的感觉就更清楚一次;失误一次，对认真的意义就会更明白一次。&lt;br&gt;&lt;i
+        &lt;!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;失败中的开放与坦诚，一种脚踏实地面对现实的精神，似乎是处于更高层次的成功所不具备的。给自己一个微笑，你就会领悟：痛苦一次，对快乐的理解就会更具体一次;
       
     
     </summary>
@@ -429,13 +414,13 @@
     <published>2019-02-28T07:36:36.000Z</published>
     <updated>2019-02-28T07:36:36.142Z</updated>
     
-    <content type="html"><![CDATA[<p>里面全部是我珍藏的各类精美PPT模板，简单的说PPT模板就是别人做好了图片图形设置好了动作并且外观精美动作协调主题统一，而你拿过去直接替换里面的文字就行了的东西。<br>不跟大家吹牛，我就从这里面找素材做了些PPT，直接给我最近的升职带来了巨大影响。<br>最近升职了，每次做的PPT都是这种非常精美而主题鲜明的，别人的却是在网上下的那种粗制滥造的东西，所以没有对比就没有伤害。。最近我升职了！也许真有它一份功劳！！欢迎收藏！！！！！</p><p>PS:如果一次存不下请打开二级文件夹后单独存二级文件夹里面的东西。</p><p>下载地址 <a href="https://pan.baidu.com/s/1Kzp2vNAn8WeXZqsZ_GSDvQ#list/path=%2F" rel="external nofollow" target="_blank">https://pan.baidu.com/s/1Kzp2vNAn8WeXZqsZ_GSDvQ#list/path=%2F</a></p>]]></content>
+    <content type="html"><![CDATA[<!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --><p>里面全部是我珍藏的各类精美PPT模板，简单的说PPT模板就是别人做好了图片图形设置好了动作并且外观精美动作协调主题统一，而你拿过去直接替换里面的文字就行了的东西。<br>不跟大家吹牛，我就从这里面找素材做了些PPT，直接给我最近的升职带来了巨大影响。<br>最近升职了，每次做的PPT都是这种非常精美而主题鲜明的，别人的却是在网上下的那种粗制滥造的东西，所以没有对比就没有伤害。。最近我升职了！也许真有它一份功劳！！欢迎收藏！！！！！</p><p>PS:如果一次存不下请打开二级文件夹后单独存二级文件夹里面的东西。</p><p>下载地址 <a href="https://pan.baidu.com/s/1Kzp2vNAn8WeXZqsZ_GSDvQ#list/path=%2F" rel="external nofollow" target="_blank">https://pan.baidu.com/s/1Kzp2vNAn8WeXZqsZ_GSDvQ#list/path=%2F</a></p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;里面全部是我珍藏的各类精美PPT模板，简单的说PPT模板就是别人做好了图片图形设置好了动作并且外观精美动作协调主题统一，而你拿过去直接替换里面的文字就行了的东西。&lt;br&gt;不跟大家吹牛，我就从这里面找素材做了些PPT，直接给我最近的升职带来了巨大影响。&lt;br&gt;最近升职了，每次
+        &lt;!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;里面全部是我珍藏的各类精美PPT模板，简单的说PPT模板就是别人做好了图片图形设置好了动作并且外观精美动作协调主题统一，而你拿过去直接替换里面的文字就
       
     
     </summary>
@@ -452,13 +437,13 @@
     <published>2019-02-26T11:56:55.000Z</published>
     <updated>2019-02-26T11:57:09.307Z</updated>
     
-    <content type="html"><![CDATA[<p>1.只有面对现实，你才能超越现实。<br>2.不要因为众生的愚疑，而带来了自己的烦恼。不要因为众生的无知，而痛苦了你自己。<br>3.当你的错误显露时，可不要发脾气，别以为任性或吵闹，可以隐藏或克服你的缺点。<br>4.正人行邪法，邪法亦正，邪人行正法，正法亦邪，一切唯心造。<br>5.所有的病患，医生最难治，所有的众生，自以为是的人最难渡。<br>6.一匹驴，吃再好的草，也不会成为一匹俊马。用执著和分别心去修行，再大的精进，也不会成佛。<br>7.广结众缘，就是不要去伤害任何一个人。</p>]]></content>
+    <content type="html"><![CDATA[<!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --><p>1.只有面对现实，你才能超越现实。<br>2.不要因为众生的愚疑，而带来了自己的烦恼。不要因为众生的无知，而痛苦了你自己。<br>3.当你的错误显露时，可不要发脾气，别以为任性或吵闹，可以隐藏或克服你的缺点。<br>4.正人行邪法，邪法亦正，邪人行正法，正法亦邪，一切唯心造。<br>5.所有的病患，医生最难治，所有的众生，自以为是的人最难渡。<br>6.一匹驴，吃再好的草，也不会成为一匹俊马。用执著和分别心去修行，再大的精进，也不会成佛。<br>7.广结众缘，就是不要去伤害任何一个人。</p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;1.只有面对现实，你才能超越现实。&lt;br&gt;2.不要因为众生的愚疑，而带来了自己的烦恼。不要因为众生的无知，而痛苦了你自己。&lt;br&gt;3.当你的错误显露时，可不要发脾气，别以为任性或吵闹，可以隐藏或克服你的缺点。&lt;br&gt;4.正人行邪法，邪法亦正，邪人行正法，正法亦邪，一切唯心造
+        &lt;!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;1.只有面对现实，你才能超越现实。&lt;br&gt;2.不要因为众生的愚疑，而带来了自己的烦恼。不要因为众生的无知，而痛苦了你自己。&lt;br&gt;3.当你的错误显露时
       
     
     </summary>
@@ -475,14 +460,13 @@
     <published>2019-02-26T09:25:49.000Z</published>
     <updated>2019-02-26T09:27:32.835Z</updated>
     
-    <content type="html"><![CDATA[<p>随着各运营商争夺用户战日益激烈,免费送宽带活动层出不穷,我等屁民终于也用上了多路宽带(几年前貌似是天方夜谭?),但如何利用上多路宽带呢,自己写了一个简单的路由脚本生成器</p><p>假设目前已有 铁通, 联通 两路宽带, 本工具可以自动生成路由脚本, 实现联通线路走联通, 其他线路走铁通 的功能, 当然各位可自行根据自己的需求修改配置来实现其他路由方式</p><p>工具界面如下 (.net 编写, 需.net 2.0以上库)<br><img src="https://ws4.sinaimg.cn/large/0078bOVFgy1g0jyc9dwp4j30su0dswf7.jpg" alt=""></p><p>首次运行先点击 按钮 “更新路由到本地”  ,  程序会从  <a href="http://ispip.clang.cn/" rel="external nofollow" target="_blank">http://ispip.clang.cn/</a>  获取路由信息(注意:该网站是本作者从网络上发现的,与本作者无关,对其中的路由信息的准确性无法保证,也未知该网站是否会突然失效,上传的附件中已打包了最新的地址信息表), 不过好在路由信息的变化应该不会很频繁, 更新一次就可以用很久(至少本人觉得够用了)</p><p>然后根据自己的需求设置 默认路由网关 和 某运行商,比如铁通的地址走的网关 ,  设置后点击 按钮 “设置到网关” , 脚本会显示在文本框内, 最后关闭程序后 程序目录下会生成一个脚本文件, 里面已经添加好了实现该功能的脚本, 运行此脚本就可添加路由表到系统中 注意: win7以上系统需要用管理员方式运行脚本, 也可以把该脚本添加为 开机任务 实现开机自动添加路由功能。</p><p>链接: <a href="https://pan.baidu.com/s/1J6NchICKSODEpejUHULVOw" rel="external nofollow" target="_blank">https://pan.baidu.com/s/1J6NchICKSODEpejUHULVOw</a> 提取码: p6jp 复制这段内容后打开百度网盘手机App，操作更方便哦</p><p>.</p>]]></content>
+    <content type="html"><![CDATA[<!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --><p>随着各运营商争夺用户战日益激烈,免费送宽带活动层出不穷,我等屁民终于也用上了多路宽带(几年前貌似是天方夜谭?),但如何利用上多路宽带呢,自己写了一个简单的路由脚本生成器</p><p>假设目前已有 铁通, 联通 两路宽带, 本工具可以自动生成路由脚本, 实现联通线路走联通, 其他线路走铁通 的功能, 当然各位可自行根据自己的需求修改配置来实现其他路由方式</p><p>工具界面如下 (.net 编写, 需.net 2.0以上库)<br><img src="https://ws4.sinaimg.cn/large/0078bOVFgy1g0jyc9dwp4j30su0dswf7.jpg" alt=""></p><p>首次运行先点击 按钮 “更新路由到本地” , 程序会从 <a href="http://ispip.clang.cn/" rel="external nofollow" target="_blank">http://ispip.clang.cn/</a> 获取路由信息(注意:该网站是本作者从网络上发现的,与本作者无关,对其中的路由信息的准确性无法保证,也未知该网站是否会突然失效,上传的附件中已打包了最新的地址信息表), 不过好在路由信息的变化应该不会很频繁, 更新一次就可以用很久(至少本人觉得够用了)</p><p>然后根据自己的需求设置 默认路由网关 和 某运行商,比如铁通的地址走的网关 , 设置后点击 按钮 “设置到网关” , 脚本会显示在文本框内, 最后关闭程序后 程序目录下会生成一个脚本文件, 里面已经添加好了实现该功能的脚本, 运行此脚本就可添加路由表到系统中 注意: win7以上系统需要用管理员方式运行脚本, 也可以把该脚本添加为 开机任务 实现开机自动添加路由功能。</p><p>链接: <a href="https://pan.baidu.com/s/1J6NchICKSODEpejUHULVOw" rel="external nofollow" target="_blank">https://pan.baidu.com/s/1J6NchICKSODEpejUHULVOw</a> 提取码: p6jp 复制这段内容后打开百度网盘手机App，操作更方便哦</p><p>.</p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;随着各运营商争夺用户战日益激烈,免费送宽带活动层出不穷,我等屁民终于也用上了多路宽带(几年前貌似是天方夜谭?),但如何利用上多路宽带呢,自己写了一个简单的路由脚本生成器&lt;/p&gt;
-&lt;p&gt;假设目前已有 铁通, 联通 两路宽带, 本工具可以自动生成路由脚本, 实现联通线路走联通,
+        &lt;!-- build time:Thu Mar 07 2019 14:59:37 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;随着各运营商争夺用户战日益激烈,免费送宽带活动层出不穷,我等屁民终于也用上了多路宽带(几年前貌似是天方夜谭?),但如何利用上多路宽带呢,自己写了一个简
       
     
     </summary>
