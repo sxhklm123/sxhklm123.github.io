@@ -328,12 +328,26 @@
           </div>
           
   <div class="comments" id="comments">
-    
-  </div>
+<section id="comment" style="margin: 0em; padding: 0em; background: rgba(255, 255, 255, 0.5)">
 
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+new Valine({
+el: '#comment' ,
+notify:false,
+verify:false,
+appId: 'tQg81VBmTnpVCklPWR3KLBAJ-gzGzoHsz',
+appKey: 'JOzVtqqwKlnVHtiGqsvSn2gr',
+placeholder: '评论!',
+path:window.location.pathname,
+avatar:'mm'
+});
+</script>
+</section>
 
         </div>
-      </main>
+      </div></main>
 
       <footer id="footer" class="footer">
 
