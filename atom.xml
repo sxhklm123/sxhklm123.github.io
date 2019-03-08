@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.taxue123.cn/"/>
-  <updated>2019-03-08T03:39:10.161Z</updated>
+  <updated>2019-03-08T06:09:16.105Z</updated>
   <id>http://www.taxue123.cn/</id>
   
   <author>
@@ -15,6 +15,54 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HEXO加入雪花背景特效</title>
+    <link href="http://www.taxue123.cn/xhbjtx/"/>
+    <id>http://www.taxue123.cn/xhbjtx/</id>
+    <published>2019-03-08T06:09:16.000Z</published>
+    <updated>2019-03-08T06:09:16.105Z</updated>
+    
+    <content type="html"><![CDATA[<p>为了增加博客站点的趣味性，特意添加了雪花飘落的效果。</p><p>实现方法：在 \themes\next\source\js\src 目录下新建一个 snow.js 文件，复制粘贴一下代码。</p><p>其中样式一是六边形的雪片，样式二是小圆点的雪花，其自行调试，选择喜欢的样式。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line">/*样式一*/</span><br><span class="line">(function($)&#123;</span><br><span class="line">$.fn.snow = function(options)&#123;</span><br><span class="line">var $flake = $(&apos;&lt;div id=&quot;snowbox&quot; /&gt;&apos;).css(&#123;&apos;position&apos;: &apos;absolute&apos;,&apos;z-index&apos;:&apos;9999&apos;, &apos;top&apos;: &apos;-50px&apos;&#125;).html(&apos;❄&apos;),</span><br><span class="line">documentHeight = $(document).height(),</span><br><span class="line">documentWidth= $(document).width(),</span><br><span class="line">defaults = &#123;</span><br><span class="line">minSize: 10,</span><br><span class="line">maxSize: 20,</span><br><span class="line">newOn: 1000,</span><br><span class="line">flakeColor: &quot;#AFDAEF&quot; /* 此处可以定义雪花颜色，若要白色可以改为#FFFFFF */</span><br><span class="line">&#125;,</span><br><span class="line">options= $.extend(&#123;&#125;, defaults, options);</span><br><span class="line">var interval= setInterval( function()&#123;</span><br><span class="line">var startPositionLeft = Math.random() * documentWidth - 100,</span><br><span class="line">startOpacity = 0.5 + Math.random(),</span><br><span class="line">sizeFlake = options.minSize + Math.random() * options.maxSize,</span><br><span class="line">endPositionTop = documentHeight - 200,</span><br><span class="line">endPositionLeft = startPositionLeft - 500 + Math.random() * 500,</span><br><span class="line">durationFall = documentHeight * 10 + Math.random() * 5000;</span><br><span class="line">$flake.clone().appendTo(&apos;body&apos;).css(&#123;</span><br><span class="line">left: startPositionLeft,</span><br><span class="line">opacity: startOpacity,</span><br><span class="line">&apos;font-size&apos;: sizeFlake,</span><br><span class="line">color: options.flakeColor</span><br><span class="line">&#125;).animate(&#123;</span><br><span class="line">top: endPositionTop,</span><br><span class="line">left: endPositionLeft,</span><br><span class="line">opacity: 0.2</span><br><span class="line">&#125;,durationFall,&apos;linear&apos;,function()&#123;</span><br><span class="line">$(this).remove()</span><br><span class="line">&#125;);</span><br><span class="line">&#125;, options.newOn);</span><br><span class="line">    &#125;;</span><br><span class="line">&#125;)(jQuery);</span><br><span class="line">$(function()&#123;</span><br><span class="line">    $.fn.snow(&#123; </span><br><span class="line">    minSize: 5, /* 定义雪花最小尺寸 */</span><br><span class="line">    maxSize: 50,/* 定义雪花最大尺寸 */</span><br><span class="line">    newOn: 300  /* 定义密集程度，数字越小越密集 */</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br></pre></td><td class="code"><pre><span class="line">/*样式二*/</span><br><span class="line">/* 控制下雪 */</span><br><span class="line">function snowFall(snow) &#123;</span><br><span class="line">    /* 可配置属性 */</span><br><span class="line">    snow = snow || &#123;&#125;;</span><br><span class="line">    this.maxFlake = snow.maxFlake || 200;   /* 最多片数 */</span><br><span class="line">    this.flakeSize = snow.flakeSize || 10;  /* 雪花形状 */</span><br><span class="line">    this.fallSpeed = snow.fallSpeed || 1;   /* 坠落速度 */</span><br><span class="line">&#125;</span><br><span class="line">/* 兼容写法 */</span><br><span class="line">requestAnimationFrame = window.requestAnimationFrame ||</span><br><span class="line">    window.mozRequestAnimationFrame ||</span><br><span class="line">    window.webkitRequestAnimationFrame ||</span><br><span class="line">    window.msRequestAnimationFrame ||</span><br><span class="line">    window.oRequestAnimationFrame ||</span><br><span class="line">    function(callback) &#123; setTimeout(callback, 1000 / 60); &#125;;</span><br><span class="line"></span><br><span class="line">cancelAnimationFrame = window.cancelAnimationFrame ||</span><br><span class="line">    window.mozCancelAnimationFrame ||</span><br><span class="line">    window.webkitCancelAnimationFrame ||</span><br><span class="line">    window.msCancelAnimationFrame ||</span><br><span class="line">window.oCancelAnimationFrame;</span><br><span class="line">/* 开始下雪 */</span><br><span class="line">snowFall.prototype.start = function()&#123;</span><br><span class="line">    /* 创建画布 */</span><br><span class="line">    snowCanvas.apply(this);</span><br><span class="line">    /* 创建雪花形状 */</span><br><span class="line">    createFlakes.apply(this);</span><br><span class="line">    /* 画雪 */</span><br><span class="line">    drawSnow.apply(this)</span><br><span class="line">&#125;</span><br><span class="line">/* 创建画布 */</span><br><span class="line">function snowCanvas() &#123;</span><br><span class="line">    /* 添加Dom结点 */</span><br><span class="line">    var snowcanvas = document.createElement(&quot;canvas&quot;);</span><br><span class="line">    snowcanvas.id = &quot;snowfall&quot;;</span><br><span class="line">    snowcanvas.width = window.innerWidth;</span><br><span class="line">    snowcanvas.height = document.body.clientHeight;</span><br><span class="line">    snowcanvas.setAttribute(&quot;style&quot;, &quot;position:absolute; top: 0; left: 0; z-index: 1; pointer-events: none;&quot;);</span><br><span class="line">    document.getElementsByTagName(&quot;body&quot;)[0].appendChild(snowcanvas);</span><br><span class="line">    this.canvas = snowcanvas;</span><br><span class="line">    this.ctx = snowcanvas.getContext(&quot;2d&quot;);</span><br><span class="line">    /* 窗口大小改变的处理 */</span><br><span class="line">    window.onresize = function() &#123;</span><br><span class="line">        snowcanvas.width = window.innerWidth;</span><br><span class="line">        /* snowcanvas.height = window.innerHeight */</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">/* 雪运动对象 */</span><br><span class="line">function flakeMove(canvasWidth, canvasHeight, flakeSize, fallSpeed) &#123;</span><br><span class="line">    this.x = Math.floor(Math.random() * canvasWidth);   /* x坐标 */</span><br><span class="line">    this.y = Math.floor(Math.random() * canvasHeight);  /* y坐标 */</span><br><span class="line">    this.size = Math.random() * flakeSize + 2;          /* 形状 */</span><br><span class="line">    this.maxSize = flakeSize;                           /* 最大形状 */</span><br><span class="line">    this.speed = Math.random() * 1 + fallSpeed;         /* 坠落速度 */</span><br><span class="line">    this.fallSpeed = fallSpeed;                         /* 坠落速度 */</span><br><span class="line">    this.velY = this.speed;                             /* Y方向速度 */</span><br><span class="line">    this.velX = 0;                                      /* X方向速度 */</span><br><span class="line">    this.stepSize = Math.random() / 30;                 /* 步长 */</span><br><span class="line">    this.step = 0                                       /* 步数 */</span><br><span class="line">&#125;</span><br><span class="line">flakeMove.prototype.update = function() &#123;</span><br><span class="line">    var x = this.x,</span><br><span class="line">        y = this.y;</span><br><span class="line">    /* 左右摆动(余弦) */</span><br><span class="line">    this.velX *= 0.98;</span><br><span class="line">    if (this.velY &lt;= this.speed) &#123;</span><br><span class="line">        this.velY = this.speed</span><br><span class="line">    &#125;</span><br><span class="line">    this.velX += Math.cos(this.step += .05) * this.stepSize;</span><br><span class="line"></span><br><span class="line">    this.y += this.velY;</span><br><span class="line">    this.x += this.velX;</span><br><span class="line">    /* 飞出边界的处理 */</span><br><span class="line">    if (this.x &gt;= canvas.width || this.x &lt;= 0 || this.y &gt;= canvas.height || this.y &lt;= 0) &#123;</span><br><span class="line">        this.reset(canvas.width, canvas.height)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line">/* 飞出边界-放置最顶端继续坠落 */</span><br><span class="line">flakeMove.prototype.reset = function(width, height) &#123;</span><br><span class="line">    this.x = Math.floor(Math.random() * width);</span><br><span class="line">    this.y = 0;</span><br><span class="line">    this.size = Math.random() * this.maxSize + 2;</span><br><span class="line">    this.speed = Math.random() * 1 + this.fallSpeed;</span><br><span class="line">    this.velY = this.speed;</span><br><span class="line">    this.velX = 0;</span><br><span class="line">&#125;;</span><br><span class="line">// 渲染雪花-随机形状（此处可修改雪花颜色！！！）</span><br><span class="line">flakeMove.prototype.render = function(ctx) &#123;</span><br><span class="line">    var snowFlake = ctx.createRadialGradient(this.x, this.y, 0, this.x, this.y, this.size);</span><br><span class="line">    snowFlake.addColorStop(0, &quot;rgba(255, 255, 255, 0.9)&quot;);  /* 此处是雪花颜色，默认是白色 */</span><br><span class="line">    snowFlake.addColorStop(.5, &quot;rgba(255, 255, 255, 0.5)&quot;); /* 若要改为其他颜色，请自行查 */</span><br><span class="line">    snowFlake.addColorStop(1, &quot;rgba(255, 255, 255, 0)&quot;);    /* 找16进制的RGB 颜色代码。 */</span><br><span class="line">    ctx.save();</span><br><span class="line">    ctx.fillStyle = snowFlake;</span><br><span class="line">    ctx.beginPath();</span><br><span class="line">    ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);</span><br><span class="line">    ctx.fill();</span><br><span class="line">    ctx.restore();</span><br><span class="line">&#125;;</span><br><span class="line">/* 创建雪花-定义形状 */</span><br><span class="line">function createFlakes() &#123;</span><br><span class="line">    var maxFlake = this.maxFlake,</span><br><span class="line">        flakes = this.flakes = [],</span><br><span class="line">        canvas = this.canvas;</span><br><span class="line">    for (var i = 0; i &lt; maxFlake; i++) &#123;</span><br><span class="line">        flakes.push(new flakeMove(canvas.width, canvas.height, this.flakeSize, this.fallSpeed))</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">/* 画雪 */</span><br><span class="line">function drawSnow() &#123;</span><br><span class="line">    var maxFlake = this.maxFlake,</span><br><span class="line">        flakes = this.flakes;</span><br><span class="line">    ctx = this.ctx, canvas = this.canvas, that = this;</span><br><span class="line">    /* 清空雪花 */</span><br><span class="line">    ctx.clearRect(0, 0, canvas.width, canvas.height);</span><br><span class="line">    for (var e = 0; e &lt; maxFlake; e++) &#123;</span><br><span class="line">        flakes[e].update();</span><br><span class="line">        flakes[e].render(ctx);</span><br><span class="line">    &#125;</span><br><span class="line">    /*  一帧一帧的画 */</span><br><span class="line">    this.loop = requestAnimationFrame(function() &#123;</span><br><span class="line">        drawSnow.apply(that);</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;</span><br><span class="line">/* 调用及控制方法 */</span><br><span class="line">var snow = new snowFall(&#123;maxFlake:60&#125;);</span><br><span class="line">snow.start();</span><br></pre></td></tr></table></figure><p>然后在 \themes\next\layout_layout.swig 文件里<body></body>内部引用即可：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- 雪花特效 --&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot;&gt;</span><br><span class="line">  var windowWidth = $(window).width();</span><br><span class="line">  if (windowWidth &gt; 480) &#123;</span><br><span class="line">    document.write(&apos;&lt;script type=&quot;text/javascript&quot; src=&quot;/js/src/snow.js&quot;&gt;&lt;\/script&gt;&apos;);</span><br><span class="line">  &#125;</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure></p><p>上面的代码为了不影响移动端的阅读体验，特意增加了屏幕宽度的判断，请根据需要决定是否添加，或者注释掉。<br>最后，请确保在你添加的代码上面已经引入了JQ，否则你还需要导入jq<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;//libs.baidu.com/jquery/1.8.3/jquery.min.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;为了增加博客站点的趣味性，特意添加了雪花飘落的效果。&lt;/p&gt;
+&lt;p&gt;实现方法：在 \themes\next\source\js\src 目录下新建一个 snow.js 文件，复制粘贴一下代码。&lt;/p&gt;
+&lt;p&gt;其中样式一是六边形的雪片，样式二是小圆点的雪花，其自行调试，选择喜
+      
+    
+    </summary>
+    
+      <category term="网络技术" scheme="http://www.taxue123.cn/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>QQ群成员提取软件-群发邮件</title>
+    <link href="http://www.taxue123.cn/qqcytq/"/>
+    <id>http://www.taxue123.cn/qqcytq/</id>
+    <published>2019-03-08T05:49:10.000Z</published>
+    <updated>2019-03-08T05:49:10.729Z</updated>
+    
+    <content type="html"><![CDATA[<p>安装版的，使用邮件群发前请先前往QQ邮箱开启 POP3/SMTP服务<br><img src="https://ws2.sinaimg.cn/large/0078bOVFgy1g0vc8hlg4aj30gh0f1dho.jpg" alt=""><br>下载链接   <a href="https://share.weiyun.com/5LGf5sJ" rel="external nofollow" target="_blank">https://share.weiyun.com/5LGf5sJ</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;安装版的，使用邮件群发前请先前往QQ邮箱开启 POP3/SMTP服务&lt;br&gt;&lt;img src=&quot;https://ws2.sinaimg.cn/large/0078bOVFgy1g0vc8hlg4aj30gh0f1dho.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;下载链接   &lt;a h
+      
+    
+    </summary>
+    
+      <category term="网络资源" scheme="http://www.taxue123.cn/categories/%E7%BD%91%E7%BB%9C%E8%B5%84%E6%BA%90/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>台达DVP全系列PLC解密</title>
@@ -437,56 +485,6 @@
       
         &lt;p&gt;使用说明：&lt;br&gt;–软件使用简单，只需 填入城通网盘文件下载的链接，再点击 “刷下载开始” 按钮，&lt;br&gt;就可以自动下载文件，赚取下载收益。&lt;/p&gt;
 &lt;p&gt;主要特点：&lt;br&gt;–软件启动真实的浏览器，完全模拟真人点击下载文件。&lt;br&gt;–每次下载，自动切换全国各城市IP，自动更
-      
-    
-    </summary>
-    
-      <category term="网络资源" scheme="http://www.taxue123.cn/categories/%E7%BD%91%E7%BB%9C%E8%B5%84%E6%BA%90/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>夕风京东包邮搜索V2.0</title>
-    <link href="http://www.taxue123.cn/jdbyss/"/>
-    <id>http://www.taxue123.cn/jdbyss/</id>
-    <published>2019-03-01T09:35:47.000Z</published>
-    <updated>2019-03-01T09:35:47.635Z</updated>
-    
-    <content type="html"><![CDATA[<p>本软件功能是搜索京东第三方包邮商品，按价格排序显示。</p><p>V2.0版更新内容：</p><p>1.新增了多品种同时搜索，用|隔开即可，不限商品；<br>2.更改了页面区间，可以指定从第几页到第几页搜索；<br>3.更改了价格区间，可以设置最低包邮价格；<br>4.将强力模式改名为模拟模式，功能未变；<br>5.将原来默认模式改名为代码模式，并进行了加强，效率和准确性已超过模拟模式；<br>6.修复了部分图片无法显示的问题；<br>7.新增了数据导出TXT功能，在左上角 操作 里面；<br>8.针对显示 计算机未连接网络 问题，提供特殊性，该版本无法更新。</p><p>特别提示：本软件易语言编写，容易误报，介意的勿下载</p><p>下载地址：<a href="https://pan.baidu.com/s/19jplsz-iRGGbA0BhvxILSQ" rel="external nofollow" target="_blank">https://pan.baidu.com/s/19jplsz-iRGGbA0BhvxILSQ</a> 提取码: 2v37 </p><p><img src="https://ws2.sinaimg.cn/large/0078bOVFgy1g0nfgq14mdj30jf0b7q5h.jpg" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;本软件功能是搜索京东第三方包邮商品，按价格排序显示。&lt;/p&gt;
-&lt;p&gt;V2.0版更新内容：&lt;/p&gt;
-&lt;p&gt;1.新增了多品种同时搜索，用|隔开即可，不限商品；&lt;br&gt;2.更改了页面区间，可以指定从第几页到第几页搜索；&lt;br&gt;3.更改了价格区间，可以设置最低包邮价格；&lt;br&gt;4.
-      
-    
-    </summary>
-    
-      <category term="网络资源" scheme="http://www.taxue123.cn/categories/%E7%BD%91%E7%BB%9C%E8%B5%84%E6%BA%90/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>HDP直播+PC版PotPlayer直播</title>
-    <link href="http://www.taxue123.cn/PotPlayer/"/>
-    <id>http://www.taxue123.cn/PotPlayer/</id>
-    <published>2019-03-01T09:30:21.000Z</published>
-    <updated>2019-03-01T09:30:21.301Z</updated>
-    
-    <content type="html"><![CDATA[<p>HDP直播+PotPlayer直播</p><p>里面有一些直播源。<br><img src="https://ws1.sinaimg.cn/large/0078bOVFgy1g0nfaxe0enj30tz13jafz.jpg" alt=""></p><p><a href="https://pan.baidu.com/share/init?surl=xyJ3Ko0TPHlKmAz4-XO2LQ" rel="external nofollow" target="_blank">https://pan.baidu.com/share/init?surl=xyJ3Ko0TPHlKmAz4-XO2LQ</a><br>密码:r43u</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;HDP直播+PotPlayer直播&lt;/p&gt;
-&lt;p&gt;里面有一些直播源。&lt;br&gt;&lt;img src=&quot;https://ws1.sinaimg.cn/large/0078bOVFgy1g0nfaxe0enj30tz13jafz.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href
       
     
     </summary>
