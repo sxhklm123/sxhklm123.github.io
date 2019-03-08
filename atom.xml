@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.taxue123.cn/"/>
-  <updated>2019-03-07T11:15:07.740Z</updated>
+  <updated>2019-03-08T03:39:10.161Z</updated>
   <id>http://www.taxue123.cn/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>台达DVP全系列PLC解密</title>
+    <link href="http://www.taxue123.cn/tdplcjm/"/>
+    <id>http://www.taxue123.cn/tdplcjm/</id>
+    <published>2019-03-08T03:39:10.000Z</published>
+    <updated>2019-03-08T03:39:10.161Z</updated>
+    
+    <content type="html"><![CDATA[<p>说明:本软件采用直读和穷举法两种破解方式。直读仅限于早期老的版本，穷举法解密适用于没有设置解锁次数限制的密码保护。不限制PLC版本,全系列均可以破解。解密时选择尽量少的密码字符,纯数字密码只需几十分钟，数字与字母组合要最大7个小时,数字、大小写字母全部选择<br>可能几十天！文件解密适用于WPLSoft2.46版本，如果是比较老的文件,请用此版本的软件打开,然后另存即可解密。免费网络共享软件，绝不销售，发现谁卖请举报。<br><img src="https://ws2.sinaimg.cn/large/0078bOVFgy1g0v8gb6gs8j30cd09hjt3.jpg" alt=""></p><p>链接: <a href="https://pan.baidu.com/s/15c6Gz6XXCd4r5dK5D4qDDQ" rel="external nofollow" target="_blank">https://pan.baidu.com/s/15c6Gz6XXCd4r5dK5D4qDDQ</a> 提取码: yjfg 复制这段内容后打开百度网盘手机App，操作更方便哦</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;说明:本软件采用直读和穷举法两种破解方式。直读仅限于早期老的版本，穷举法解密适用于没有设置解锁次数限制的密码保护。不限制PLC版本,全系列均可以破解。解密时选择尽量少的密码字符,纯数字密码只需几十分钟，数字与字母组合要最大7个小时,数字、大小写字母全部选择&lt;br&gt;可能几十天
+      
+    
+    </summary>
+    
+      <category term="软件仓库" scheme="http://www.taxue123.cn/categories/%E8%BD%AF%E4%BB%B6%E4%BB%93%E5%BA%93/"/>
+    
+    
+      <category term="台达PLC解密" scheme="http://www.taxue123.cn/tags/%E5%8F%B0%E8%BE%BEPLC%E8%A7%A3%E5%AF%86/"/>
+    
+  </entry>
   
   <entry>
     <title>京东检测新老号电脑端软件分享</title>
@@ -467,29 +492,6 @@
     </summary>
     
       <category term="网络资源" scheme="http://www.taxue123.cn/categories/%E7%BD%91%E7%BB%9C%E8%B5%84%E6%BA%90/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>积极的人在忧患中看到机会而消极的人则看到忧患</title>
-    <link href="http://www.taxue123.cn/youlvzhongkandaojihui/"/>
-    <id>http://www.taxue123.cn/youlvzhongkandaojihui/</id>
-    <published>2019-03-01T04:06:23.000Z</published>
-    <updated>2019-03-01T04:06:23.912Z</updated>
-    
-    <content type="html"><![CDATA[<p>积极的人在每一次忧患中都看到一个机会，而消极的人则在每个机会都看到某种忧患。生命中，不断地有人离开或进入。于是，看见的，看不见的；记住的，遗忘了。生命中不断地有得到和失落。于是，看不见的，看见了；遗忘的，记住了。 然而，看不见 的，是不是就等于不存在？记住的，是不是永远不会消失？<br><img src="https://ws3.sinaimg.cn/large/0078bOVFgy1g0n5xejcgwj30fy0amjtq.jpg" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;积极的人在每一次忧患中都看到一个机会，而消极的人则在每个机会都看到某种忧患。生命中，不断地有人离开或进入。于是，看见的，看不见的；记住的，遗忘了。生命中不断地有得到和失落。于是，看不见的，看见了；遗忘的，记住了。 然而，看不见 的，是不是就等于不存在？记住的，是不是永远不会
-      
-    
-    </summary>
-    
-      <category term="生活语录" scheme="http://www.taxue123.cn/categories/%E7%94%9F%E6%B4%BB%E8%AF%AD%E5%BD%95/"/>
     
     
   </entry>
