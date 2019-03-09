@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Hexo 增加网站运行时间统计 </title>
+      <link href="/yxsjtj/"/>
+      <url>/yxsjtj/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://ws4.sinaimg.cn/large/0078bOVFgy1g0wh87mjd8j30d503h0sv.jpg" alt=""><br>解决方案<br>找到 \themes\next\layout_partials\下面的footer.swig文件<br>在以下两个代码段之间插入所示代码<br><img src="https://ws3.sinaimg.cn/large/0078bOVFgy1g0wh8qajc8j30uo0nr41y.jpg" alt=""><br>代码如下<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">&lt;span id=&quot;sitetime&quot;&gt;&lt;/span&gt;</span><br><span class="line">&lt;script language=javascript&gt;</span><br><span class="line">function siteTime()&#123;</span><br><span class="line">window.setTimeout(&quot;siteTime()&quot;, 1000);</span><br><span class="line">var seconds = 1000;</span><br><span class="line">var minutes = seconds * 60;</span><br><span class="line">var hours = minutes * 60;</span><br><span class="line">var days = hours * 24;</span><br><span class="line">var years = days * 365;</span><br><span class="line">var today = new Date();</span><br><span class="line">var todayYear = today.getFullYear();</span><br><span class="line">var todayMonth = today.getMonth()+1;</span><br><span class="line">var todayDate = today.getDate();</span><br><span class="line">var todayHour = today.getHours();</span><br><span class="line">var todayMinute = today.getMinutes();</span><br><span class="line">var todaySecond = today.getSeconds();</span><br><span class="line">/* Date.UTC() -- 返回date对象距世界标准时间(UTC)1970年1月1日午夜之间的毫秒数(时间戳)</span><br><span class="line">year - 作为date对象的年份，为4位年份值</span><br><span class="line">month - 0-11之间的整数，做为date对象的月份</span><br><span class="line">day - 1-31之间的整数，做为date对象的天数</span><br><span class="line">hours - 0(午夜24点)-23之间的整数，做为date对象的小时数</span><br><span class="line">minutes - 0-59之间的整数，做为date对象的分钟数</span><br><span class="line">seconds - 0-59之间的整数，做为date对象的秒数</span><br><span class="line">microseconds - 0-999之间的整数，做为date对象的毫秒数 */</span><br><span class="line">var t1 = Date.UTC(2018,02,13,15,00,00); //北京时间2018-2-13 00:00:00</span><br><span class="line">var t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond);</span><br><span class="line">var diff = t2-t1;</span><br><span class="line">var diffYears = Math.floor(diff/years);</span><br><span class="line">var diffDays = Math.floor((diff/days)-diffYears*365);</span><br><span class="line">var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours);</span><br><span class="line">var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes);</span><br><span class="line">var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds);</span><br><span class="line">document.getElementById(&quot;sitetime&quot;).innerHTML=&quot; 已运行&quot;+/*diffYears+&quot; 年 &quot;+*/diffDays+&quot; 天 &quot;+diffHours+&quot; 小时 &quot;+diffMinutes+&quot; 分钟 &quot;+diffSeconds+&quot; 秒&quot;;</span><br><span class="line">&#125;/*因为建站时间还没有一年，就将之注释掉了。需要的可以取消*/</span><br><span class="line">siteTime();</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure></p><p>使用命令编译并查看效果。推送网站。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络技术 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>京东助手+淘宝试用助手+苏宁试用助手</title>
       <link href="/tbsyzs/"/>
       <url>/tbsyzs/</url>

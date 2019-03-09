@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.taxue123.cn/"/>
-  <updated>2019-03-09T01:27:16.277Z</updated>
+  <updated>2019-03-09T05:28:03.613Z</updated>
   <id>http://www.taxue123.cn/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo 增加网站运行时间统计 </title>
+    <link href="http://www.taxue123.cn/yxsjtj/"/>
+    <id>http://www.taxue123.cn/yxsjtj/</id>
+    <published>2019-03-09T05:28:03.000Z</published>
+    <updated>2019-03-09T05:28:03.613Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://ws4.sinaimg.cn/large/0078bOVFgy1g0wh87mjd8j30d503h0sv.jpg" alt=""><br>解决方案<br>找到 \themes\next\layout_partials\下面的footer.swig文件<br>在以下两个代码段之间插入所示代码<br><img src="https://ws3.sinaimg.cn/large/0078bOVFgy1g0wh8qajc8j30uo0nr41y.jpg" alt=""><br>代码如下<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">&lt;span id=&quot;sitetime&quot;&gt;&lt;/span&gt;</span><br><span class="line">&lt;script language=javascript&gt;</span><br><span class="line">function siteTime()&#123;</span><br><span class="line">window.setTimeout(&quot;siteTime()&quot;, 1000);</span><br><span class="line">var seconds = 1000;</span><br><span class="line">var minutes = seconds * 60;</span><br><span class="line">var hours = minutes * 60;</span><br><span class="line">var days = hours * 24;</span><br><span class="line">var years = days * 365;</span><br><span class="line">var today = new Date();</span><br><span class="line">var todayYear = today.getFullYear();</span><br><span class="line">var todayMonth = today.getMonth()+1;</span><br><span class="line">var todayDate = today.getDate();</span><br><span class="line">var todayHour = today.getHours();</span><br><span class="line">var todayMinute = today.getMinutes();</span><br><span class="line">var todaySecond = today.getSeconds();</span><br><span class="line">/* Date.UTC() -- 返回date对象距世界标准时间(UTC)1970年1月1日午夜之间的毫秒数(时间戳)</span><br><span class="line">year - 作为date对象的年份，为4位年份值</span><br><span class="line">month - 0-11之间的整数，做为date对象的月份</span><br><span class="line">day - 1-31之间的整数，做为date对象的天数</span><br><span class="line">hours - 0(午夜24点)-23之间的整数，做为date对象的小时数</span><br><span class="line">minutes - 0-59之间的整数，做为date对象的分钟数</span><br><span class="line">seconds - 0-59之间的整数，做为date对象的秒数</span><br><span class="line">microseconds - 0-999之间的整数，做为date对象的毫秒数 */</span><br><span class="line">var t1 = Date.UTC(2018,02,13,15,00,00); //北京时间2018-2-13 00:00:00</span><br><span class="line">var t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond);</span><br><span class="line">var diff = t2-t1;</span><br><span class="line">var diffYears = Math.floor(diff/years);</span><br><span class="line">var diffDays = Math.floor((diff/days)-diffYears*365);</span><br><span class="line">var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours);</span><br><span class="line">var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes);</span><br><span class="line">var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds);</span><br><span class="line">document.getElementById(&quot;sitetime&quot;).innerHTML=&quot; 已运行&quot;+/*diffYears+&quot; 年 &quot;+*/diffDays+&quot; 天 &quot;+diffHours+&quot; 小时 &quot;+diffMinutes+&quot; 分钟 &quot;+diffSeconds+&quot; 秒&quot;;</span><br><span class="line">&#125;/*因为建站时间还没有一年，就将之注释掉了。需要的可以取消*/</span><br><span class="line">siteTime();</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure></p><p>使用命令编译并查看效果。推送网站。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://ws4.sinaimg.cn/large/0078bOVFgy1g0wh87mjd8j30d503h0sv.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;解决方案&lt;br&gt;找到 \themes\next\layout_partials\下面的footer
+      
+    
+    </summary>
+    
+      <category term="网络技术" scheme="http://www.taxue123.cn/categories/%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>京东助手+淘宝试用助手+苏宁试用助手</title>
@@ -460,30 +483,6 @@
         &lt;p&gt;喜欢xmind zen的风格，文科生，JS零基础，根据网络上相关破解资源花了两天时间捣鼓完成了不完美破解。&lt;/p&gt;
 &lt;p&gt;版本：基于官网最新的9.1.3版&lt;/p&gt;
 &lt;p&gt;破解：移除授权和验证（自己觉得已经移除了）、去除主界面“试用”提示，导出图片、PDF无水印（PDF还是有
-      
-    
-    </summary>
-    
-      <category term="网络资源" scheme="http://www.taxue123.cn/categories/%E7%BD%91%E7%BB%9C%E8%B5%84%E6%BA%90/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>RAR文件解锁器v4.0汉化版</title>
-    <link href="http://www.taxue123.cn/rarjs/"/>
-    <id>http://www.taxue123.cn/rarjs/</id>
-    <published>2019-03-01T09:41:10.000Z</published>
-    <updated>2019-03-01T09:41:10.397Z</updated>
-    
-    <content type="html"><![CDATA[<p>某些压缩包我们想直接编辑它，却发现添加按钮是灰色的，原因就是压缩的时候选择了锁定属性<br>把RAR文件拖进解锁器里，点击解锁，即可编辑压缩包了</p><p>如果你从未遇到锁定的文件，是因为你用了第三方修改的WinRAR，如果你用原版WinRAR，那么它是必不可少的<br>注意：这不是破解密码的软件！是去除rar压缩包锁定属性的软件</p><p><img src="https://ws1.sinaimg.cn/large/0078bOVFgy1g0nflf6tiqj30g70b075s.jpg" alt=""></p><p>链接: <a href="https://pan.baidu.com/s/1hHnrXMg6sXS7zSOYWczTeQ" rel="external nofollow" target="_blank">https://pan.baidu.com/s/1hHnrXMg6sXS7zSOYWczTeQ</a> 提取码: uemr 复制这段内容后打开百度网盘手机App，操作更方便哦</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;某些压缩包我们想直接编辑它，却发现添加按钮是灰色的，原因就是压缩的时候选择了锁定属性&lt;br&gt;把RAR文件拖进解锁器里，点击解锁，即可编辑压缩包了&lt;/p&gt;
-&lt;p&gt;如果你从未遇到锁定的文件，是因为你用了第三方修改的WinRAR，如果你用原版WinRAR，那么它是必不可少的&lt;br
       
     
     </summary>
